@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
-.home-content h2 {
+.home-content h6 {
     font-family: "montserrat-bold", sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
