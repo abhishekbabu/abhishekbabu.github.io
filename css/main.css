@@ -1804,6 +1804,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
+.home-content h2 {
+    font-family: "montserrat-bold", serif;
+    color: #FFFFFF;
+    font-size: 3rem;
+    line-height: 1.35;
+    margin-top: 0;
+}
+
 .home-content__main {
     padding-right: 300px;
     position: relative;
