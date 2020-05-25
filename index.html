@@ -11,8 +11,8 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>Abhishek Babu</title>
-    <meta name="description" content="Portfolio">
-    <meta name="author" content="Abhishek Babu">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -31,8 +31,12 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<link rel="manifest" href="icon/site.webmanifest">
 
 </head>
 
@@ -43,16 +47,14 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="#top"><img src="images/logo.png" alt="Homepage"></a>
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Portfolio</a></li>
-                <!-- <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li> -->
-                <!-- <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li> -->
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
             </ul>
         </nav>
 
@@ -63,7 +65,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/street.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -72,26 +74,26 @@
 
             <div class="row home-content__main">
 
-            	<img src="images/profilepic.jpg" style="width:180px;height:180px;border-radius:50%;"/>
+            	<img src="images/me.jpg" style="width:180px; height:180px; border-radius:50%;"/>
 
-                <h1 style="font-family: librebaskerville-bold">
-                    Abhishek Babu
+                <h1>
+                    I'm Abhishek Babu.
                 </h1>
 
-                <h3>Computer Science student at the University of Washington, Seattle</h3>
+                <h3>A Computer Science Student<br>At the Unviersity of Washington, Seattle</h3>
 
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
-                        My Portfolio
+                	<a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
                     </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        About Me
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        My Projects
                     </a>
                 </div>
 
                 <div class="home-content__scroll">
                     <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll For More</span>
+                        <span>Scroll Down</span>
                     </a>
                 </div>
 
@@ -100,26 +102,17 @@
         </div> <!-- end home-content -->
 
         <ul class="home-social">
-            <!-- <li>
-                <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li> -->
-            <li>
-                <a href="https://twitter.com/shekster04/" target="_blank"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/abhishekbabu04/" target="_blank"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <!-- <li>
-                <a href="#"><i class="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#"><i class="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
-            </li> -->
             <li>
                 <a href="https://www.linkedin.com/in/abhishek-babu/" target="_blank"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
             </li>
             <li>
                 <a href="https://github.com/abhishekbabu/" target="_blank"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/abhishekbabu04/" target="_blank"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/shekster04/" target="_blank"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -133,20 +126,37 @@
         
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
-                <!-- <h3>About</h3> -->
                 <h1>About Me.</h1>
-                <!-- <p class="lead">I'm 19 years old and am pursuing a degree in Computer Science at the Paul G. Allen School of Computer Science & Engineering in the University of Washington.</p> -->
+                <p class="lead">Based in Seattle, Washington<br>
+                From Chennai, India</p>
             </div>
         </div>
 
         <div class="row about-content">
 
             <div class="col-six tab-full left">
-
                 <h3>Profile.</h3>
-                <p>I'm a highly enthusiastic and inquisitive computer science student with a strong foundation in computational mathematics and programming logic. I am very interested in leveraging my skills in the fields of data science and machine learning.</p>
-                <p>As I was graduating high school, I wanted to pursue aerospace engineering and even got accepted to the University of Washington's Direct to College program for the College of Engineering. In my first year, as I was completing my aerospace prequisite classes, I also decided to take the first few introductory computer science courses because I was already familiar with Java and because this is always good knowledge to have in a STEM field. As I applied to the Aerospace Engineering major, I also decided to apply to the Computer Science program because I thought that the introductory courses were very interesting and I had performed very well in them. I wasn't expecting to be accepted, especially given how competitive the Computer Science major at UW is.</p>
-                <p>Well, I got accepted and decided to pursue Computer Science. I dove headfirst into the material and the great teaching staff at the Paul G. Allen School of Computer Science and Engineering have made this experience very rewarding. I am excited to continue my journey on this path and I am hoping to pursue the combined BS/MS program for Computer Science at UW.</p>
+
+                <p>I'm a highly enthusiastic and inquisitive computer science student with a strong foundation in
+                mathematics and programming logic. I am very interested in leveraging my skills in the fields of data
+                science and machine learning.</p>
+
+                <p>As I was graduating high school, I wanted to pursue aerospace engineering and even got accepted to the
+                University of Washington's Direct to College program for the College of Engineering. In my first year, as
+                I was completing my aerospace prequisite classes, I also decided to take the first few introductory
+                computer science courses because I was already familiar with Java and because this is always good
+                knowledge to have in a STEM field. As I applied to the Aerospace Engineering major, I also decided to
+                apply to the Computer Science program because I thought that the introductory courses were very
+                interesting and I had performed very well in them. I wasn't expecting to be accepted, especially given
+                how competitive the Computer Science major at UW is.</p>
+
+                <p>Well, I got accepted and decided to pursue Computer Science. I dove headfirst into the material and
+                the great teaching staff at the Paul G. Allen School of Computer Science and Engineering have made this
+                experience very rewarding. I am excited to continue my journey on this path and I am hoping to pursue the
+                combined BS/MS program for Computer Science at UW.</p>
+
+                <p>I am also specializing in Data Science for my degree. Additionally, I'm also pursuing a minor in math.
+                </p>
 
             </div>
 
@@ -155,12 +165,8 @@
 
                 <ul class="skill-bars">
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Java</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Python</strong>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>C</strong>
                     </li>
                     <li>
                     <div class="progress percent90"><span>90%</span></div>
@@ -168,23 +174,43 @@
                     </li>
                     <li>
                     <div class="progress percent85"><span>85%</span></div>
-                    <strong>C</strong>
+                    <strong>C++</strong>
                     </li>
                     <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>C++</strong>
-                    </li>   
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>CSS</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Java</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent60"><span>60%</span></div>
+                    <strong>JavaScript</strong>
+                    </li>
                     <li>
                     <div class="progress percent85"><span>85%</span></div>
                     <strong>MATLAB</strong>
-                    </li>   
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Python</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent65"><span>65%</span></div>
+                    <strong>ReactJS</strong>
+                    </li>
                     <li>
                     <div class="progress percent80"><span>80%</span></div>
                     <strong>SQL</strong>
                     </li>
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML</strong>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>SQL++</strong>
                     </li>
                 </ul>
             </div>
@@ -193,22 +219,20 @@
 
         <div class="row about-content about-content--buttons">
 
-            <div class="col-full tab-center">
-                <a href="resume/AbhishekBabu_Resume.pdf" class="btn btn--primary full-width" download>Download My Resume</a>
+            <div class="col-six tab-full left">
+                <a href="resume/AbhishekBabu_Resume.pdf" class="btn btn--primary full-width" target="_blank">My Resume</a>
             </div>
-            <!-- <div class="col-six tab-full right">
-                <a href="#0" class="btn full-width">Hire Me Now</a>
-            </div> -->
+            <div class="col-six tab-full right">
+                <a href="mailto:babua@cs.washington.edu" class="btn btn--primary full-width" target="_blank">Email Me</a>
+            </div>
 
         </div> <!-- end about-content buttons -->
-
-        <br><br>
 
         <div class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
-               	<h1 style="font-family: montserrat-bold">My Coursework.</h1>
-           	</div>
+                <h3>My Coursework.</h3>
+            </div>
 
             <div class="col-six tab-full left">
                 <div class="timeline">
@@ -227,7 +251,7 @@
                 	<div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe"><font color="#862121">Spring 2020</font></p>
+                            <p class="timeline__timeframe"><font color="#862121">Spring 2020 (Current)</font></p>
                             <h5>CSE 333 - Systems Programming</h5>
                             <h5>CSE 344 - Introduction to Data Management</h5>
                             <h5>MATH 309 - Linear Analysis</h5>
@@ -308,9 +332,10 @@
                 </div>
             </div>
 
+        <div class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
-                <h1 style="font-family: montserrat-bold">My Work Experience.</h1>
+                <h3>My Work Experience.</h3>
             </div>
 
             <div class="col-six tab-full left">
@@ -319,18 +344,22 @@
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2019 - Present</p>
+                            <p class="timeline__timeframe"><font color="#862121">July 2019 - Present</font></p>
                             <h3>University of Washington College of Engineering</h3>
                             <h5>Technical Project Lead</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Project: Laboratory Reconciliation and Information project (LARI)<br>
-                            Lab: Autonomous Flight Systems Laboratory in the William E. Boeing Department of Aeronautics & Astronautics
+                            <p>Project: Laboratory Reconciliation and Information System (LARI)<br>
+                            Lab: Autonomous Flight Systems Laboratory<br>
+                            Department: William E. Boeing Department of Aeronautics and Astronautics
                             <ul>
-                                <li>Oversee and follow up with developers on user story progress</li>
-                                <li>Troubleshoot and provide assistance for developers new to the team</li>
+                                <li>Manage the project's development and guide other developers on their user story
+                                progress</li>
+                                <li>Ensure deliverable requirements are met for the client, and manage the recruitment
+                                process of new developers</li>
                                 <li>Continue software development responsibilities alongside spearheading the project's technical development process</li>
-                                <li>Oversaw and single-handedly managed the transition of the project's backend codebase from Perforce to Git for seamless developer environment setup</li>
+                                <li>Single-handedly managed the transition of the project's backend codebase from Perforce to Git for seamless developer environment setup</li>
+                                <li>Technologies: Java, C# (.NET Framework), SQL, XAML, Git, Perforce, Trello</li>
                             </ul>
                             </p>
                         </div>
@@ -339,7 +368,7 @@
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">May 2019 - Present</p>
+                            <p class="timeline__timeframe"><font color="#862121">May 2019 - Present</font></p>
                             <h3>True Martial Arts</h3>
                             <h5>Assistant Instructor</h5>
                         </div>
@@ -347,7 +376,10 @@
                             <p>
                             <ul>
                                 <li>Assist and lead warmups and training in sparring and Taekwondo forms</li>
-                                <li>Facilitate engaging and challenging Taekwondo lessons for groups ranging from 15 to 40 students</li>
+                                <li>Instruct and facilitate engaging and challenging Taekwondo lessons for groups
+                                ranging from 10 to 50 students in cooperation with the head instructor of the class</li>
+                                <li>Participate in instructors' meetings to improve class content and structure based on
+                                other instructors' and students' feedback</li>
                             </ul>
                             </p>
                         </div>
@@ -356,18 +388,21 @@
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">April 2019 - Present</p>
+                            <p class="timeline__timeframe"><font color="#862121">April 2019 - Present</font></p>
                             <h3>University of Washington College of Engineering</h3>
-                            <h5>Software Engineer</h5>
+                            <h5>Undergraduate Research Assistant</h5>
                         </div>
                         <div class="timeline__desc">	
                             <p>Project: Laboratory Reconciliation and Information project (LARI)<br>
-                            Lab: Autonomous Flight Systems Laboratory in the William E. Boeing Department of Aeronautics & Astronautics
+                            Lab: Autonomous Flight Systems Laboratory<br>
+                            William E. Boeing Department of Aeronautics & Astronautics
                             <ul>
-                                <li>Full-stack software developer</li>
-                                <li>Developing a database management solution to streamline hardware components tracking and flight data</li>
-                                <li>Developing automatic checklist generating functionality for flight tests contingent on component tracking for UAVs and other aircraft</li>
-                                <li>Technologies: C#, .NET Framework, SQL, XAML, Git, Perforce, Trello</li>
+                                <li>Developing a SQL database solution for tracking hardware components and aircraft
+                                components in the laboratory</li>
+                                <li>Implementing automatic flight checklist generating functionality for flight lists
+                                depending on the components and payload aboard the aircraft, which will significantly
+                                reduce the length of the transition period between aircraft readiness and testing</li>
+                                <li>Technologies: Java, C# (.NET Framework), SQL, XAML, Git, Perforce, Trello</li>
                             </ul>
                             </p>
                         </div>
@@ -387,13 +422,28 @@
                             <h5>Software Engineering Intern</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>
+                            <p>Project: Meetings Monitor
                             <ul>
-                                <li>Create functionality to analyze conference room images from a remote IoT device for people detection and facial recognition of conference room users</li>
-                                <li>Add features for storing time-stamped data points into table storage (parsed people detection and facial recognition results) and blob storage (images and unparsed formatted detection results)</li>
-                                <li>Create cross-platform functionality for seamless deployment to various other devices and testing environments</li>
-                                <li>Created and updated documentation for project dependencies and libraries</li>
-                                <li>Technologies: Microsoft Cognitive Services (Face API, Computer Vision API), Microsoft Azure (Table Storage, Blob Storage, DevOps), Raspbian (Linux), OpenCV, OpenCvSharp, Nano, JSON, C# (.NET Core), Raspberry Pi 4</li>
+                                <li>Integrated a remote IoT (Raspberry Pi 4) to survey a conference room by capturing
+                                snapshots of the room at regular intervals during the working day</li>
+                                <li>Developed cross-platform (Windows and Linux) application to be housed on the IoT
+                                device that uses OpenCV Haar Cascade classifiers and Microsoft Cognitive Services
+                                Computer Vision API for human detection (get a human count from the snapshot)</li>
+                                <li>Additionally implemented Microsoft Cognitive Services Face API to perform facial
+                                recognition on consenting users (who provided their facial images through the conference
+                                room booking system)</li>
+                                <li>Implemented data storage functionality to store time-stamped data points (human
+                                count and facial recognition results) into Azure Table Storage and unparsed data (the
+                                snapshots and JSON objects from API calls) into Azure Blob Storage</li>
+                                <li>Integrated application with conference room booking system to gather metrics about
+                                conference room bookings vs. usage</li>
+                                <li>Created and updated documentation for project dependencies, libraries and
+                                implementation details on Azure DevOps</li>
+                                <li>Project is currently being used at Tata Consultancy Services' Bellevue campus and
+                                will be extended for use on other campuses</li>
+                                <li>Technologies used: C# (.NET Core), Microsoft Cognitive Services (Face API, Computer
+                                Vision API), Microsoft Azure (Table Storage, Blob Storage, DevOps), Raspbian (Linux),
+                                OpenCV (OpenCvSharp, Haar Cascade classifiers), JSON, Raspberry Pi 4</li>
                             </ul>
                             </p>
                         </div>
@@ -410,25 +460,10 @@
                             <p>
                             <ul>
                                 <li>Assist and lead warmups and training in sparring and Taekwondo forms</li>
-                                <li>Facilitate engaging and challenging Taekwondo lessons for groups ranging from 15 to 40 students</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">April 2017 - July 2017</p>
-                            <h3>The Musuem of Flight</h3>
-                            <h5>Washington Aerospace Scholar</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>
-                            <ul>
-                                <li>Completed a college level online course in spaceflight mechanics & design and qualified in a competitive pool of Pacific Northwest students for a hands-on workshop at the Museum of Flight</li>
-                                <li>Simulated a mock space mission and built a prototype Mars rover to be presented to judges with the goal of receiving funding from potential sponsors such as SpaceX and Blue Origin</li>
-                                <li>Selected as a group leader tasked with designing and implementing mission components</li>
+                                <li>Instruct and facilitate engaging and challenging Taekwondo lessons for groups
+                                ranging from 10 to 50 students in cooperation with the head instructor of the class</li>
+                                <li>Participate in instructors' meetings to improve class content and structure based on
+                                other instructors' and students' feedback</li>
                             </ul>
                             </p>
                         </div>
@@ -462,7 +497,9 @@
             <div class="col-full">
                 <h3>Portfolio</h3>
                 <h1>My Latest Projects.</h1>
-                <p>Make sure to click the title of each project to see additional information.</p>
+                
+                <p class="lead">Click the pictures to get more information about each project. Then click the title of
+                each project to visit the project link, if one exists. At the moment, I am still finishing up this website. Project links can be found on my LinkedIn.</p>
             </div>
         </div>
 
@@ -473,90 +510,29 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-mask.png" class="thumb-link" title="3D Printing PPE - Coronavirus" data-size="500x500">
-                                <img src="images/portfolio/mask.png" srcset="images/portfolio/mask.png 1x" alt="">
+                            <a href="images/portfolio/gallery/g-boxfanfilter.png" class="thumb-link" title="Box Fan Filter Attachment" data-size="1000x1000">
+                                <img src="images/portfolio/boxfanfilter.png" 
+                                     srcset="images/portfolio/boxfanfilter.png 1x, images/portfolio/boxfanfilter@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://photos.app.goo.gl/4v3TVRR12x7DD44c6" target="_blank">3D Printing PPE - Coronavirus</a>
-                            </h3>
-                            <p class="item-folio__cat">
-                                March 2020 - present
-                            </p>
-                        </div>
-
-                        <a href="https://photos.app.goo.gl/4v3TVRR12x7DD44c6" target="_blank" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>I 3D printed masks and face shield frames for recipient groups in need and shipped them with the help of a team at Microsoft that tracks need.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-website.png" class="thumb-link" data-size="1440x900">
-                                <img src="images/portfolio/website.png"
-                                     srcset="images/portfolio/website.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                <a href="https://github.com/abhishekbabu/abhishekbabu.github.io/" target="_blank">This Website</a>
-                            </h3>
-                            <p class="item-folio__cat">
-                                December 2019 - present
-                            </p>
-                        </div>
-
-                        <a href="https://github.com/abhishekbabu/abhishekbabu.github.io/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>I built this website as a way to condense my portfolio in a sleek and efficient manner.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-boxfanfilter.png" class="thumb-link" data-size="1440x900">
-                                <img src="images/portfolio/boxfanfilter.png"
-                                     srcset="images/portfolio/boxfanfilter.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                <a href="https://abbabu0411.wordpress.com/2020/04/26/box-fan-filter/" target="_blank">Box Fan Filter Attachment</a>
+                                Box Fan Filter Attachment
                             </h3>
                             <p class="item-folio__cat">
                                 April 2020
                             </p>
                         </div>
 
-                        <a href="https://abbabu0411.wordpress.com/2020/04/26/box-fan-filter/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
-                        <span class="item-folio__caption">
-                            <p>I remixed a 3d model of a box fan filter attachment to fit two filters back to back. Additional details about filter choice and remixing the model can be found at the project link. (Click the project name)</p>
-                        </span>
+                        <div class="item-folio__caption">
+                            <p>I remixed a 3D model of a box fan filter attachment to fit two filters back to back. I used this filter attachment as an air purifier at home.</p>
+                        </div>
 
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
@@ -565,28 +541,62 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-musique.png" class="thumb-link" title="Musique" data-size="500x500">
-                                <img src="images/portfolio/musique.png" srcset="images/portfolio/musique.png 1x" alt="">
+                            <a href="images/portfolio/gallery/g-mask.png" class="thumb-link" title="3D Printed PPE" data-size="1000x1000">
+                                <img src="images/portfolio/mask.png" 
+                                     srcset="images/portfolio/mask.png 1x, images/portfolio/mask@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://github.com/abhishekbabu/Musique/" target="_blank">Musique</a>
+                                3D Printed PPE
+                            </h3>
+                            <p class="item-folio__cat">
+                                March 2020 - April 2020
+                            </p>
+                        </div>
+
+                        <a href="" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>I 3D printed masks and face shield frames for recipient groups in need and shipped them
+                            with the help of a team at Microsoft that tracks need. 30+ masks printed and donated. 30+
+                            face shield frames printed and donated.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-musique.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/musique.png" 
+                                     srcset="images/portfolio/musique.png 1x, images/portfolio/musique@2x.png 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Musique
                             </h3>
                             <p class="item-folio__cat">
                                 October 2019
                             </p>
                         </div>
 
-                        <a href="https://github.com/abhishekbabu/Musique/" target="_blank" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
-                        <div class="item-folio__caption">
-                            <p>This web application created for DubHacks 2019 allows users to upload any images they choose and uses pixel-by-pixel data of the image to produce an instrumental.</p>
-                        </div>
+                        <span class="item-folio__caption">
+                            <p>I created this web application with 3 other creators for DubHacks 2019. Musique allows users to upload images of their choice and uses the pixel-encoded data of the image to produce an instrumental.</p>
+                        </span>
 
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
@@ -595,28 +605,29 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-twitter.png" class="thumb-link" title="Twitter" data-size="1920x1080">
-                                <img src="images/portfolio/twitter.png" srcset="images/portfolio/twitter.png 1x" alt="">
+                            <a href="images/portfolio/gallery/g-twitter.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/twitter.png"
+                                     srcset="images/portfolio/twitter.png 1x, images/portfolio/twitter@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://github.com/abhishekbabu/Twitter-Sentiment-Analysis/" target="_blank">Twitter Sentiment Analysis</a>
+                                Tweet Sentiment Prediction Model
                             </h3>
                             <p class="item-folio__cat">
-                                July 2019 - August 2019
+                                July 2019
                             </p>
                         </div>
 
-                        <a href="https://github.com/abhishekbabu/Twitter-Sentiment-Analysis/" target="_blank" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
-                        <div class="item-folio__caption">
-                            <p>This is a machine learning model that uses natural language processing to determine whether the sentiment conveyed by a tweet is positive or negative.</p>
-                        </div>
+                        <span class="item-folio__caption">
+                            <p>I trained a Logistic Regression model (sklearn) using Natural Language Toolkit and tweets harvested using the Twitter API and Tweepy to predict whether tweets indicated positive or negative sentiment.</p>
+                        </span>
 
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
@@ -625,28 +636,28 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-photogrammetry.jpg" class="thumb-link" data-size="900x860">
-                                <img src="images/portfolio/photogrammetry.jpg" 
-                                     srcset="images/portfolio/photogrammetry.jpg 1x, images/portfolio/photogrammetry@2x.jpg 2x, images/portfolio/photogrammetry@3x.jpg 3x" alt="">
+                            <a href="images/portfolio/gallery/g-photogrammetry.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/photogrammetry.png"
+                                     srcset="images/portfolio/photogrammetry.png 1x, images/portfolio/photogrammetry@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://1drv.ms/u/s!AoSMfT-ytL4qgdcGmQVJ_56AbAqLkA?e=u97xkT/" target="_blank">Photogrammetric Sculpture Recreation</a>
+                                Photogrammetric Sculpture Recreation
                             </h3>
                             <p class="item-folio__cat">
                                 March 2019
                             </p>
                         </div>
 
-                        <a href="https://1drv.ms/u/s!AoSMfT-ytL4qgdcGmQVJ_56AbAqLkA?e=u97xkT/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
                         <span class="item-folio__caption">
-                            <p>Used tools such as Meshroom, Meshlab, COLMAP, and 3DF Zephyr to photogrammetrically create a 3D model of a sculpture. Used Blender and Cura to refine the recreated model. Printed custom replica model using a Creality CR-10 printer that I built.</p>
+                            <p>I used tools such as 3DF Zephyr, Meshlab, Meshmixer and COLMAP to photogrammterically create a 3D model of a sculpture I had at home. I used Blender and Ultimaker Cura to clean up and slice the model. I printed the replica using a Creality CR-10 printer that I built.</p>
                         </span>
 
                     </div> <!-- end item-folio -->
@@ -656,28 +667,28 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-smartmirror.jpg" class="thumb-link" data-size="1280x720">
-                                <img src="images/portfolio/smartmirror.jpg"
-                                     srcset="images/portfolio/smartmirror.jpg 1x" alt="">
+                            <a href="images/portfolio/gallery/g-smartmirror.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/smartmirror.png"
+                                     srcset="images/portfolio/smartmirror.png 1x, images/portfolio/smartmirror@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://abbabu0411.wordpress.com/2018/09/09/smart-mirror-raspberry-pi/" target="_blank">Smart Mirror w/ Voice Assistant</a>
+                                Smart Mirror w/ Voice Assistant
                             </h3>
                             <p class="item-folio__cat">
                                 August 2018
                             </p>
                         </div>
 
-                        <a href="https://abbabu0411.wordpress.com/2018/09/09/smart-mirror-raspberry-pi/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
                         <span class="item-folio__caption">
-                            <p>Smart mirror using the MagicMirror open source platform and Google Assistant API for voice assistant capabilities. The voice assistant was adapted from a previous project of mine. I also currently use this mirror in my room.</p>
+                            <p>I built a smart mirror using the open source MagicMirror platform and Google Assistant API for voice assistant capabilities. The mirror was adapted from a previous project of mine that was just a voice assistant.</p>
                         </span>
 
                     </div> <!-- end item-folio -->
@@ -687,28 +698,28 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-googleaiy.png" class="thumb-link" data-size="4000x2660">
-                                <img src="images/portfolio/googleaiy.png"
-                                     srcset="images/portfolio/googleaiy.png 1x" alt="">
+                            <a href="images/portfolio/gallery/g-voiceassistant.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/voiceassistant.png"
+                                     srcset="images/portfolio/voiceassistant.png 1x, images/portfolio/voiceassistant@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://abbabu0411.wordpress.com/2017/11/20/voice-assistant-google-aiy-project/" target="_blank">Voice Assistant</a>
+                                Voice Assistant
                             </h3>
                             <p class="item-folio__cat">
                                 September 2017 - November 2017
                             </p>
                         </div>
 
-                        <a href="https://abbabu0411.wordpress.com/2017/11/20/voice-assistant-google-aiy-project/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
                         <span class="item-folio__caption">
-                            <p>This is a Raspberry Pi voice assistant using Google Assistant API. This project was later integrated into my smart mirror project.</p>
+                            <p>I built this voice assistant using Google Assistant API on a Raspberry Pi. I later integrated this project into my smart mirror.</p>
                         </span>
 
                     </div> <!-- end item-folio -->
@@ -718,28 +729,28 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lotkavolterra.png" class="thumb-link" data-size="478x341">
+                            <a href="images/portfolio/gallery/g-lotkavolterra.png" class="thumb-link" data-size="1000x1000">
                                 <img src="images/portfolio/lotkavolterra.png"
-                                     srcset="images/portfolio/lotkavolterra.png 1x" alt="">
+                                     srcset="images/portfolio/lotkavolterra.png 1x, images/portfolio/lotkavolterra@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://1drv.ms/b/s!AoSMfT-ytL4qgdY2Y0tMEdjJsgS-og/" target="_blank">Analysis of Lotka-Volterra Model</a>
+                                Analysis of Lotka-Volterra Model
                             </h3>
                             <p class="item-folio__cat">
                                 April 2017 - October 2017
                             </p>
                         </div>
 
-                        <a href="https://1drv.ms/b/s!AoSMfT-ytL4qgdY2Y0tMEdjJsgS-og/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
                         <span class="item-folio__caption">
-                            <p>This is my International Baccalaureate Extended Essay in Higher Level Mathematics. I explore the different mathematical features of the Lotka-Volterra predator-prey population model and modify it to improve its adherence to observed predator-prey population dynamics.</p>
+                            <p>I wrote this analysis as my IB Extended Essay in Higher Level Mathematics. In this analysis I explore the features of the model and propose modifications to improve its adherence to observed predator-prey population dynamics.</p>
                         </span>
 
                     </div> <!-- end item-folio -->
@@ -749,59 +760,28 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-robot.jpg" class="thumb-link" data-size="1280x720">
-                                <img src="images/portfolio/robot.jpg"
-                                     srcset="images/portfolio/robot.jpg 1x" alt="">
+                            <a href="images/portfolio/gallery/g-rover.png" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/rover.png"
+                                     srcset="images/portfolio/rover.png 1x, images/portfolio/rover@2x.png 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                <a href="https://github.com/abhishekbabu/Reconnaisance-Robot/" target="_blank">Reconnaissance Robot</a>
+                                Reconnaissance Rover
                             </h3>
                             <p class="item-folio__cat">
                                 August 2017 - September 2017
                             </p>
                         </div>
 
-                        <a href="https://github.com/abhishekbabu/Reconnaisance-Robot/" class="item-folio__project-link" title="Project link">
+                        <a href="" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
                         <span class="item-folio__caption">
-                            <p>This is a Raspberry Pi robot that navigates its surroundings using ultrasonic and infrared sensors. Also live-streams surroundings and uses a temperature-humidity sensor to collect and relay data to a remote computer.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-foodio.png" class="thumb-link" data-size="2548x1696">
-                                <img src="images/portfolio/foodio.png"
-                                     srcset="images/portfolio/foodio.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                <a href="https://1drv.ms/b/s!AoSMfT-ytL4qqFQ-sd-KEXF3hOMh/" target="_blank">Foodio - Business Plan</a>
-                            </h3>
-                            <p class="item-folio__cat">
-                                October 2017 - March 2018
-                            </p>
-                        </div>
-
-                        <a href="https://1drv.ms/b/s!AoSMfT-ytL4qqFQ-sd-KEXF3hOMh/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>This was my Independent Business Plan of a food startup in San Francisco for DECA.</p>
+                            <p>I built this Raspberry Pi rover that naviagtes its surroudings using ultrasonic and infrared sensors. I additionally integrated a camera and an atmospheric data to feed a livestream and atmospheric data to my remote computer.</p>
                         </span>
 
                     </div> <!-- end item-folio -->
@@ -815,14 +795,14 @@
 
 
     <!-- testimonials
-    ================================================== !
+    ================================================== -->
     <div class="s-testimonials">
 
         <div class="overlay"></div>
 
         <div class="row testimonials-header">
             <div class="col-full">
-                <h1 class="h02">What People Say.</h1>
+                <h1 class="h02">What People Say About Me.</h1>
             </div>
         </div>
 
@@ -831,129 +811,34 @@
             <div class="col-full testimonials__slider">
 
                 <div class="testimonials__slide">
-                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    <img src="images/avatars/noimage.png" alt="Author image" class="testimonials__avatar">
+                    <p>I had the privilege to work with Abhishek this summer. He has demonstrated varied knowledge and
+                    the ability to adapt to new technology given a short amount of time, he is always on time, clear on
+                    communication and tries to do the best he can of whatever task he is given. He will be a good asset
+                    for any team he will join.</p>
                     <div class="testimonials__author h06">
-                        Tim Cook
-                        <span>CEO, Apple</span>
+                        Huy Tran
+                        <span>Software Engineer, Cytiva</span>
                     </div>
                 </div>
 
                 <div class="testimonials__slide">
-                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                    <img src="images/avatars/noimage.png" alt="Author image" class="testimonials__avatar">
+                    <p>Abhishek is humble, but does not hesitate to share his approach for problem solving, and yet he
+                    is sensitive to the feelings of others. As a result, he is well respected by his peers and his
+                    teachers.<br>Through two years’ observation as his classroom teacher, it is evident that Abhishek is
+                    accountable, kind, a hard worker, and resilient.</p>
                     <div class="testimonials__author h06">
-                        Sundar Pichai
-                        <span>CEO, Google</span>
-                    </div>
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-                    <div class="testimonials__author h06">
-                        Satya Nadella
-                        <span>CEO, Microsoft</span>
+                        Hearan Shim
+                        <span>IB Higher Level Mathematics Teacher, Skyline High School</span>
                     </div>
                 </div>
                 
-            </div> ! end testimonials__slider !
+            </div> <!-- end testimonials__slider -->
 
-        </div> ! end testimonials !
+        </div> <!-- end testimonials -->
 
-    </div> ! end s-testimonials -->
-
-    <!-- blog
-    ==================================================
-    <section id="blog" class="s-blog target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Journal</h3>
-                <h1>Latest From The Blog.</h1>
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute. 
-                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
-                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
-        <div class="row blog-content">
-            <div class="col-full">
-
-                <div class="blog-list block-1-2 block-tab-full">
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 16, 2017</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 15, 2017</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Photography</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 14, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
-                        </div>
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 12, 2017</a>
-                        </div>    
-                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
-                        </div>
-                    </article>
-                </div> ! end blog-list !
-
-            </div> ! end col-full
-        </div> ! end blog-content
-
-    </section> ! end s-blog -->
-
+    </div> <!-- end s-testimonials -->
 
     <!-- s-stats
     ================================================== -->
@@ -965,7 +850,7 @@
                     <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>
                 <div class="stats__count">
-                    11
+                    9
                 </div>
                 <h4>Projects</h4>
             </div>
@@ -991,92 +876,9 @@
                 <h4>Cups of Coffee</h4> 
             </div>
 
+
         </div>
     </section> <!-- end s-stats -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                ! <h3>Contact Me</h3> !
-                <h1>Contact.</h1>
-                
-                <p class="lead">Feel free to reach me through one of my listed emails.</p>
-            </div>
-        </div>
-
-        
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="https://formspree.io/babua@cs.washington.edu">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
-            </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Phone</h4>
-                <p>Phone: (+63) 555 1212<br>
-                Mobile: (+63) 555 0100<br>
-                Fax: (+63) 555 0101
-                </p>
-
-                <h4 class="h06">Email</h4>
-                <p>babua@cs.washington.edu<br>
-                babua@uw.edu
-                </p>
-
-                
-                <h4 class="h06">Location</h4>
-                <p>
-                University of Washington<br>
-                Seattle, WA<br>
-                98195 United States
-                </p>
-            </div>
-
-        </div>
-
-    </section> <!-- end s-contact -->
-
 
     <!-- footer
     ================================================== -->
@@ -1085,37 +887,25 @@
             <div class="col-full">
 
                 <div class="footer-logo">
-                    <a class="footer-site-logo" href="#top"><img src="images/logo.png" alt="Homepage"></a>
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
                 </div>
 
                 <ul class="footer-social">
-                    <!-- <li><a href="">
-                        <i class="im im-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
-                    </a></li> -->
-                    <li><a href="https://twitter.com/shekster04/" target="_blank">
-                        <i class="im im-twitter" aria-hidden="true"></i>
-                        <span>Twitter</span>
-                    </a></li>
-                    <li><a href="https://www.instagram.com/abhishekbabu04/" target="_blank">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <!-- <li><a href="#0">
-                        <i class="im im-behance" aria-hidden="true"></i>
-                        <span>Behance</span>
-                    </a></li> -->
-                    <!-- <li><a href="#0">
-                        <i class="im im-pinterest" aria-hidden="true"></i>
-                        <span>Pinterest</span>
-                    </a></li> -->
-                    <li><a href="https://www.linkedin.com/in/abhishek-babu/" target="_blank">
+                	<li><a href="https://www.linkedin.com/in/abhishek-babu/" target="_blank">
                         <i class="im im-linkedin" aria-hidden="true"></i>
                         <span>LinkedIn</span>
                     </a></li>
                     <li><a href="https://github.com/abhishekbabu/" target="_blank">
                         <i class="im im-github" aria-hidden="true"></i>
                         <span>GitHub</span>
+                    </a></li>
+                	<li><a href="https://www.instagram.com/abhishekbabu04/" target="_blank">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://twitter.com/shekster04/" target="_blank">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
                     </a></li>
                     <li><a href="mailto:babua@cs.washington.edu" target="_blank">
                         <i class="im im-mail" aria-hidden="true"></i>
@@ -1130,7 +920,7 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Abhishek Babu 2020</span> 
+                    <span>© Copyright © 2020 Abhishek Babu</span> 
                     <span>Theme from <a href="https://www.styleshout.com/" target="_blank">styleshout</a></span>	
                 </div>
 
