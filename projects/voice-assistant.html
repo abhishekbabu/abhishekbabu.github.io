@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Reconnaissance Rover.</title>
+    <title>Voice Assistant.</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -74,18 +74,15 @@
                 <article class="col-full">
                     <div class="page-header__info">
                         <div class="page-header__cat">
-                            <span>Raspberry Pi, Python</span>
+                            <span>Raspberry Pi, JavaScript, Python</span>
                         </div>
                     </div>
                     <h1 class="page-header__title">
                         <a href="#0" title="">
-                            Reconnaissance Rover.
+                            Voice Assistant.
                         </a>
                     </h1>
                     <ul class="page-header__meta">
-                        <li>
-                            <a href="https://github.com/abhishekbabu/Reconnaisance-Robot" target="_blank"><i class="im im-github" aria-hidden="true"></i></a>
-                        </li>
                         <li class="date">November 20, 2017</li>
                         <li class="author">
                             By
@@ -101,9 +98,9 @@
         <div class="row blog-content">
             <div class="col-full blog-content__main">
 
-                <p class="lead">This <a href="https://github.com/abhishekbabu/Reconnaisance-Robot" target="_blank">project</a> is a reconnaissance rover built with a Raspberry Pi and Python scripts.</p>
+                <p class="lead">This project is a voice assistant built with a Raspberry Pi and Google Assistant API.</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HtoK3k6HyiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/E9tKj7mWq1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <h3>Components</h3>
 
@@ -111,60 +108,23 @@
                 <ul>
                     <li><a href="https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8/" target="_blank">Raspberry Pi 3 Model B</a> x1
                         <ul>
-                            <li>I used the Pi with the default Raspbian OS.</li>
+                            <li>I used the Pi with Voice Kit image from the Google AIY project website.</li>
                         </ul>
                     </li>
-                    <li><a href="https://www.amazon.com/Ardokit-Chassis-Encoder-Battery-Arduino/dp/B00K5OWHXO/" target="_blank">Robot Car Chassis Kit</a> x1
+                    <li><a href="https://www.amazon.com/gp/product/B00IR8R7WQ/" target="_blank">USB Microphone</a> x1
                         <ul>
-                            <li>Comes with 2 DC stepper motors, 2 wheels and a 4 battery box.</li>
+                            <li>Used this simple microphone to allow the user to talk to the voice assistant.</li>
                         </ul>
                     </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01COSN7O6/" target="_blank">HC-SR04 Ultrasonic Sensor</a> x1
+                    <li><a href="https://www.amazon.com/gp/product/B01AUVQHRS/" target="_blank">Speakers</a> x1
                         <ul>
-                            <li>This sensor sends ultrasonic pulses and wait for an echo back when these pulses bounce off objects in front.</li>
-                            <li>These pulses travel at the speed of sound; so if we determine the time taken for the upulse to echo back, we can use the distance formula to calculate the distance to the nearest object in front.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01GZ1QUHO/" target="_blank">L298N Motor Controller</a> x1
-                        <ul>
-                            <li>The controller is used to manage the power output to each motor, which allows for forward movement, backward movement and turning.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01I57HIJ0/" target="_blank">IR Sensor</a> x2
-                        <ul>
-                            <li>I mounted these sensors on the back in case there were obstacles found while reversing.</li>
-                            <li>These sensors have a built-in range up to which they detect obstacles, so there's no process to determining distances; the sensors send a signal if they encounter an object within their effective range.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/MELIFE-Solderless-Breadboards-Distribution-Connecting/dp/B07WCRP2TY/" target="_blank">Solderless Breadboard</a> x1 400 Tie and x2 170 Tie
-                        <ul>
-                            <li>I used the 400 tie breadboard to mount the ultrasonic sensor and temperature-humidity sensor.</li>
-                            <li>I used the two 170 tie breadboards to mount the IR sensors on the back of the rover.</li>
-                        </ul>
-                    </li>
-                    <li>Portable USB Charger x1
-                        <ul>
-                            <li>The charger was used as the power source for the Pi.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B072J59YTF/" target="_blank">Metal Model Building Set</a> x1
-                        <ul>
-                            <li>I used this set to build a frame atop the chassis where the Pi would be mounted.</li>
-                            <li>I used the frame to support the breadboards required for the ultrasonic and infrared sensors.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B06XKJMSNJ/" target="_blank">Amadget 5MP Raspberry Pi Camera Module</a> x1
-                        <ul>
-                            <li><a href="https://elinux.org/RPi-Cam-Web-Interface">Here</a>, you can find information about how to livestream using a Pi camera.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01N9BA0O4/" target="_blank">DHT22/AM2302 Digital Temperature and Humidity Sensor</a> x1
-                        <ul>
-                            <li><a href="https://www.raspberryweather.com/python-script/"> Here</a>, you can find information about how to set up the Python scripts to run the temperature-humidity sensor.</li>
+                            <li>You can use a wired speaker for simple setup, or bluetooth for a slightly longer setup but clean design.</li>
                         </ul>
                     </li>
                 </ul>
                 </p>
+
+                <p>I followed this <a href="https://www.androidauthority.com/build-google-assistant-raspberry-pi-770296/" target="_blank">guide</a> from Android Authority and this <a href="https://aiyprojects.withgoogle.com/voice#assembly-guide" target="_blank">guide</a> from the Google AIY project website in the development of this project.</p>
 
             </div><!-- end blog-content__main -->
         </div> <!-- end blog-content -->

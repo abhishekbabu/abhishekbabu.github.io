@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Reconnaissance Rover.</title>
+    <title>Photogrammetry.</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -74,19 +74,16 @@
                 <article class="col-full">
                     <div class="page-header__info">
                         <div class="page-header__cat">
-                            <span>Raspberry Pi, Python</span>
+                            <span>Photogrammetry, CAD, 3D Printing</span>
                         </div>
                     </div>
                     <h1 class="page-header__title">
                         <a href="#0" title="">
-                            Reconnaissance Rover.
+                            Photogrammetric Recreation of a Sculpture.
                         </a>
                     </h1>
                     <ul class="page-header__meta">
-                        <li>
-                            <a href="https://github.com/abhishekbabu/Reconnaisance-Robot" target="_blank"><i class="im im-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li class="date">November 20, 2017</li>
+                        <li class="date">April 1, 2019</li>
                         <li class="author">
                             By
                             <span>Abhishek Babu</span>
@@ -101,70 +98,11 @@
         <div class="row blog-content">
             <div class="col-full blog-content__main">
 
-                <p class="lead">This <a href="https://github.com/abhishekbabu/Reconnaisance-Robot" target="_blank">project</a> is a reconnaissance rover built with a Raspberry Pi and Python scripts.</p>
+                <p class="lead">This project was a photogrammetric scan of a sculpture I had at home, which was then 3D printed as a replica.</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HtoK3k6HyiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>I used tools such as 3DF Zephyr, COLMAP, Meshlab, Meshmixer, Blender and Ultimaker Cura to scan, refine and slice the 3D model replica. I then 3D printed the replica with my Creality CR-10 3D printer.</p>
 
-                <h3>Components</h3>
-
-                <p>
-                <ul>
-                    <li><a href="https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8/" target="_blank">Raspberry Pi 3 Model B</a> x1
-                        <ul>
-                            <li>I used the Pi with the default Raspbian OS.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/Ardokit-Chassis-Encoder-Battery-Arduino/dp/B00K5OWHXO/" target="_blank">Robot Car Chassis Kit</a> x1
-                        <ul>
-                            <li>Comes with 2 DC stepper motors, 2 wheels and a 4 battery box.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01COSN7O6/" target="_blank">HC-SR04 Ultrasonic Sensor</a> x1
-                        <ul>
-                            <li>This sensor sends ultrasonic pulses and wait for an echo back when these pulses bounce off objects in front.</li>
-                            <li>These pulses travel at the speed of sound; so if we determine the time taken for the upulse to echo back, we can use the distance formula to calculate the distance to the nearest object in front.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01GZ1QUHO/" target="_blank">L298N Motor Controller</a> x1
-                        <ul>
-                            <li>The controller is used to manage the power output to each motor, which allows for forward movement, backward movement and turning.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01I57HIJ0/" target="_blank">IR Sensor</a> x2
-                        <ul>
-                            <li>I mounted these sensors on the back in case there were obstacles found while reversing.</li>
-                            <li>These sensors have a built-in range up to which they detect obstacles, so there's no process to determining distances; the sensors send a signal if they encounter an object within their effective range.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/MELIFE-Solderless-Breadboards-Distribution-Connecting/dp/B07WCRP2TY/" target="_blank">Solderless Breadboard</a> x1 400 Tie and x2 170 Tie
-                        <ul>
-                            <li>I used the 400 tie breadboard to mount the ultrasonic sensor and temperature-humidity sensor.</li>
-                            <li>I used the two 170 tie breadboards to mount the IR sensors on the back of the rover.</li>
-                        </ul>
-                    </li>
-                    <li>Portable USB Charger x1
-                        <ul>
-                            <li>The charger was used as the power source for the Pi.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B072J59YTF/" target="_blank">Metal Model Building Set</a> x1
-                        <ul>
-                            <li>I used this set to build a frame atop the chassis where the Pi would be mounted.</li>
-                            <li>I used the frame to support the breadboards required for the ultrasonic and infrared sensors.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B06XKJMSNJ/" target="_blank">Amadget 5MP Raspberry Pi Camera Module</a> x1
-                        <ul>
-                            <li><a href="https://elinux.org/RPi-Cam-Web-Interface">Here</a>, you can find information about how to livestream using a Pi camera.</li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.amazon.com/gp/product/B01N9BA0O4/" target="_blank">DHT22/AM2302 Digital Temperature and Humidity Sensor</a> x1
-                        <ul>
-                            <li><a href="https://www.raspberryweather.com/python-script/"> Here</a>, you can find information about how to set up the Python scripts to run the temperature-humidity sensor.</li>
-                        </ul>
-                    </li>
-                </ul>
-                </p>
+                <iframe src="https://onedrive.live.com/embed?cid=2ABEB4B23F7D8C84&resid=2ABEB4B23F7D8C84%2127526&authkey=AO0vqtrozvydF6Y" width="500" height="400" frameborder="0" scrolling="yes"></iframe>
 
             </div><!-- end blog-content__main -->
         </div> <!-- end blog-content -->
