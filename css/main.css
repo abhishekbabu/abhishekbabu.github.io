@@ -1284,7 +1284,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro.has-bottom-sep {
-    padding-bottom: 1.5rem;
+    padding-bottom: 0rem;
     position: relative;
 }
 
@@ -1768,7 +1768,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     vertical-align: bottom;
-    padding-bottom: 19.2rem;
+    padding-bottom: 2rem;
     position: relative;
 }
 
@@ -1882,7 +1882,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-bold", sans-serif;
     list-style: none;
     margin: 0;
-    padding-bottom: 18rem;
+    padding-bottom: 30rem;
     position: absolute;
     bottom: 0;
     right: 40px;
@@ -2197,8 +2197,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -2240,7 +2240,19 @@ html.no-csstransitions .home-content__main {
 .timeline__block {
     position: relative;
     padding-left: 8rem;
-    min-height: 28.8rem;
+    min-height: 10rem;
+}
+
+.timeline__block__cert {
+    position: relative;
+    padding-left: 8rem;
+    min-height: 18rem;
+}
+
+.timeline__block__acad {
+    position: relative;
+    padding-left: 8rem;
+    min-height: 25rem;
 }
 
 .timeline__bullet {
@@ -2353,7 +2365,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 15.6rem;
     background-color: #f1f1f1;
     position: relative;
@@ -2907,8 +2919,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col {
-    padding: 7.8rem 2rem 6.6rem;
-    position: relative;
+    padding: 5rem 2rem;
+    position: bottom;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -2929,9 +2941,9 @@ html.no-csstransitions .home-content__main {
 
 .stats__count {
     font-family: "librebaskerville-bold", serif;
-    font-size: 7.2rem;
+    font-size: 5rem;
     line-height: 1;
-    color: #0D0A0B;
+    color: #ffffff;
     padding-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
@@ -2951,12 +2963,37 @@ html.no-csstransitions .home-content__main {
     margin-left: -50px;
 }
 
+.stats__dec__count {
+    font-family: "librebaskerville-bold", serif;
+    font-size: 5rem;
+    line-height: 1;
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats__dec__count::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+}
+
 .stats h4 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
     color: rgba(0, 0, 0, 0.4);
     font-size: 1.8rem;
     position: relative;
+    color: #ffffff;
 }
 
 .stats__col--highlight {
@@ -4136,4 +4173,100 @@ article.blog-single .blog-content {
     .commentlist .comment__avatar {
         display: none;
     }
+}
+
+/* tooltip */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 275px;
+  background-color: #fafafa;
+  color: #708090;
+  text-align: left;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  top: -5px;
+  left: 105%;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Box */
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  margin: auto;
+  display: flex;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #bbb;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Grid */
+.grid-container {
+  grid-template-columns: auto auto auto auto;
+  padding: 75px;
+  display: inline-grid;
+  grid-gap: 30px;
+}
+
+.flip-box img {
+  padding-left: 1rem;
+  margin: auto;
 }

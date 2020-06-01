@@ -261,7 +261,7 @@
     * ------------------------------------------------------ */
     var ssStatCount = function() {
 
-        var statSection = $(".s-stats"),
+        var statSection = $(".home-content"),
         stats = $(".stats__count");
 
         statSection.waypoint({
@@ -278,6 +278,43 @@
                             easing: 'swing',
                             step: function (curValue) {
                                 $this.text(Math.ceil(curValue));
+                            }
+                        });
+                    });
+
+                } 
+
+                // trigger once only
+                this.destroy();
+
+            },
+
+            offset: "90%"
+
+        });
+    };
+
+    /* Stat decimal Counter
+    * ------------------------------------------------------ */
+    var ssStatDecCount = function() {
+
+        var statSection = $(".home-content"),
+        stats = $(".stats__dec__count");
+
+        statSection.waypoint({
+
+            handler: function(direction) {
+
+                if (direction === "down") {
+
+                    stats.each(function () {
+                        var $this = $(this);
+
+                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                            duration: 3000,
+                            easing: 'swing',
+                            step: function (curValue) {
+                                $this.text(parseFloat(curValue).toFixed(2));
                             }
                         });
                     });
@@ -422,6 +459,7 @@
         ssSlickSlider();
         ssWaypoints();
         ssStatCount();
+        ssStatDecCount();
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
