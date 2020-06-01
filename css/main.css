@@ -1921,9 +1921,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-social i {
     font-size: 1.8rem;
     right: 0;
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .home-social span {
@@ -4260,9 +4260,9 @@ article.blog-single .blog-content {
 
 /* Grid */
 .grid-container {
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );;
   padding: 75px;
-  display: inline-grid;
+  display: grid;
   grid-gap: 30px;
 }
 
