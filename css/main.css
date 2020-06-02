@@ -4266,7 +4266,18 @@ article.blog-single .blog-content {
   grid-gap: 30px;
 }
 
+.flip-box h3 {
+  margin: none;
+  padding: 0%;
+}
+
 .flip-box img {
   padding-left: 1rem;
   margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    padding: 0%;
+  }
 }
