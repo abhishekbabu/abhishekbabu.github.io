@@ -4279,6 +4279,6 @@ article.blog-single .blog-content {
 
 @media only screen and (max-width: 600px) {
   .grid-container {
-    padding: 3%;
+    padding: 10%;
   }
 }
