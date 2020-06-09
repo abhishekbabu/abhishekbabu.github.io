@@ -4246,7 +4246,7 @@ article.blog-single .blog-content {
 
 /* Style the front side */
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #ffffff;
   color: black;
   margin: auto;
   display: flex;
@@ -4254,9 +4254,12 @@ article.blog-single .blog-content {
 
 /* Style the back side */
 .flip-box-back {
-  background-color: #bbb;
+  background-color: #ffffff;
   color: white;
   transform: rotateY(180deg);
+  padding: 0% 2%;
+  border: #000000;
+  border-style: solid;
 }
 
 /* Grid */
@@ -4270,11 +4273,6 @@ article.blog-single .blog-content {
 .flip-box h3 {
   margin: none;
   padding: 0%;
-}
-
-.flip-box img {
-  padding-left: 1rem;
-  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
