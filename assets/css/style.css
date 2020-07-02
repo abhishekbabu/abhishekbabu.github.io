@@ -11,6 +11,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #272829;
+  background-color: #f1f1f1;
 }
 
 a {
@@ -182,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #fff;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -439,7 +440,10 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: #fafafa;
+  border: 2px solid black;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  transition: all ease-in-out 0.3s;
 }
 
 .facts .count-box i {
@@ -468,6 +472,12 @@ section {
   font-size: 14px;
 }
 
+.facts .count-box:hover {
+  background: #fff;
+  border: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -494,7 +504,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #ffffff;
 }
 
 .skills .progress-bar {
@@ -534,12 +544,13 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #ffffff;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 10px;
+  border: 1px solid black;
 }
 
 .resume .resume-item .tools {
@@ -742,8 +753,9 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #fafafa;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  border: 2px solid black;
 }
 
 .services .icon-box .icon {
@@ -793,6 +805,7 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
+  background-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
