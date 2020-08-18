@@ -572,6 +572,16 @@ section {
   margin-left: 5px;
 }
 
+.resume .resume-item a {
+  color: #45505b;
+  border-bottom: 1px dotted;
+}
+
+.resume .resume-item a:hover {
+  color: #dc143c;
+  transition: 0.1s;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
