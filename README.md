@@ -1,5 +1,5 @@
 # Abhishek Babu's Personal Website
-This website is the place to go to find out who I am, what I do, and what I am passionate about. This website was built using HTML, CSS, vanilla JavaScript and Bootstrap.
+Feel free to visit my website to learn more about me!
 
 ### Template and License Information
 Template Name: MyResume  

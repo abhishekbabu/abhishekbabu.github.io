@@ -18,7 +18,9 @@
   <link href="../assets/img/favicon/android-chrome-512x512.png" rel="icon" sizes="512x512">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,45 +43,49 @@
 
 <body>
 
-  <main id="main">
+  <!-- ======= Portfolio Details ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
 
-    <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container" data-aos="fade-up">
+      <div class="row">
 
-        <div class="row">
-
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">PlaDIS (Plant Disease Identification System)</h2>
-            <!-- <div class="owl-carousel portfolio-details-carousel">
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">PlaDIS (Plant Disease Identification System)</h2>
+          <!-- <div class="owl-carousel portfolio-details-carousel">
               <img src="../assets/img/portfolio/CoviData/screenshot.png" class="img-fluid" alt="">
             </div> -->
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/MVBpWX9osu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/MVBpWX9osu4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Software</li>
-              <li><strong>Hackathon</strong>: Hack'20</li>
-              <li><strong>Date(s)</strong>: August 2020</li>
-              <li><strong>Source code</strong>: <a href="https://github.com/kzhu7/PlaDIS" target="_blank">github.com/kzhu7/PlaDIS</a></li>
-              <li><strong>Partner(s)</strong>: <a href="https://www.linkedin.com/in/kevin-zhu7/" target="_blank">Kevin Zhu</a></li>
-            </ul>
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Software</li>
+            <li><strong>Hackathon</strong>: Hack'20</li>
+            <li><strong>Date(s)</strong>: August 2020</li>
+            <li><strong>Source code</strong>: <a href="https://github.com/kzhu7/PlaDIS"
+                target="_blank">github.com/kzhu7/PlaDIS</a></li>
+            <li><strong>Partner(s)</strong>: <a href="https://www.linkedin.com/in/kevin-zhu7/" target="_blank">Kevin
+                Zhu</a></li>
+          </ul>
 
-            <p>
-              The project is an Android application that detects diseases in plants from pictures of their leaves. We leveraged <strong>Google Cloud Platform</strong> and <strong>AutoML Vision Edge</strong> from <strong>Google Firebase</strong>
-              to train a vision model that could detect these diseases. We curated part of <a href="https://www.kaggle.com/saroz014/plant-diseases" target="_blank">this dataset</a> from Kaggle for the training, testing and validation of the model.
-              We built an accompanying Android application that allows users to take pictures of their plant leaves and then remotely accesses the Firebase-hosted model to produce the results of the diagnosis.
-            </p>
-          </div>
-
+          <p>
+            The project is an Android application that detects diseases in plants from pictures of their leaves. We
+            leveraged <strong>Google Cloud Platform</strong> and <strong>AutoML Vision Edge</strong> from <strong>Google
+              Firebase</strong>
+            to train a vision model that could detect these diseases. We curated part of <a
+              href="https://www.kaggle.com/saroz014/plant-diseases" target="_blank">this dataset</a> from Kaggle for the
+            training, testing and validation of the model.
+            We built an accompanying Android application that allows users to take pictures of their plant leaves and
+            then remotely accesses the Firebase-hosted model to produce the results of the diagnosis.
+          </p>
         </div>
 
       </div>
-    </section><!-- End Portfolio Details -->
 
-  </main><!-- End #main -->
+    </div>
+  </section><!-- End Portfolio Details -->
 
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>

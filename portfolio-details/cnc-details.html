@@ -18,7 +18,9 @@
   <link href="../assets/img/favicon/android-chrome-512x512.png" rel="icon" sizes="512x512">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,124 +43,132 @@
 
 <body>
 
-  <main id="main">
+  <!-- ======= Portfolio Details ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
 
-    <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container" data-aos="fade-up">
+      <div class="row">
 
-        <div class="row">
-
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">Arduino CNC Drawing Machine</h2>
-            <!-- <div class="owl-carousel portfolio-details-carousel">
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Arduino CNC Drawing Machine</h2>
+          <!-- <div class="owl-carousel portfolio-details-carousel">
               <img src="../assets/img/portfolio/Analysis of Lotka-Volterra Model/lotka-volterra.png" class="img-fluid" alt="">
             </div> -->
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/fC6z2C1CR8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>This project is a 2D plotter drawing machine built using an <strong>Arduino UNO</strong> and <strong>GRBL</strong>.</p>
-          </div>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/fC6z2C1CR8M" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <p>This project is a 2D plotter drawing machine built using an <strong>Arduino UNO</strong> and
+            <strong>GRBL</strong>.</p>
+        </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Software, Hardware</li>
-              <li><strong>Date(s)</strong>: July 2020 - September 2020</li>
-            </ul>
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Software, Hardware</li>
+            <li><strong>Date(s)</strong>: July 2020 - September 2020</li>
+          </ul>
 
-            Components
-            <ul>
-              <li><a href="https://1drv.ms/u/s!AoSMfT-ytL4qh5kOiPv36b5Zz_YmLg?e=LHMcX1" target="_blank">STL Files</a>
-                <ul>
-                  <li>These are the STL files I printed in PETG to assemble the machine.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B06XHKSVTG" target="_blank">Arduino UNO + CNC Shield + 4 A4988 Stepper Motor Drivers + Arduino Data Cable</a> x1
-                <ul>
-                  <li>This kit contains all of the Arduino and CNC hardware components for this project.</li>
-                  <li>I used 2 of the 4 stepper motor drivers in the project.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B07TY4BFF2" target="_blank">NEMA 17 Stepper Motor</a> x2
-                <ul>
-                  <li>These motors are used for the movements along the x and y axes.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B077PW5JC3" target="_blank">12V 2A Power Supply</a> x1
-                <ul>
-                  <li>This is used to supply power to the CNC shield and motors.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B072BXB2Y8" target="_blank">12V 5A Pigtail Cable Wire</a> x1
-                <ul>
-                  <li>This is used to connect the power supply to the CNC shield without cutting the power supply cable to expose the inner red/black wires.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B07B4W6S2X" target="_blank">3mm x 300mm Metal Round Shaft Rod Bar</a> x4
-                <ul>
-                  <li>These rods allow the x and y axis components to slide freely for movement during the drawing.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B07KXZ8T4Z" target="_blank">2.7mm x 100mm Metal Round Shaft Rod Bar</a> x2
-                <ul>
-                  <li>These rods allow the z axis components to slide freely for movement during the drawing.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B07H3S2Y8Q" target="_blank">Servo Motor w/ Wing</a> x1
-                <ul>
-                  <li>This motor moves the writing utensil along the z axis to control the drawing location.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.amazon.com/gp/product/B07JKT5BZQ" target="_blank">6mm Timing Belt Roll + 5mm Bore Belt Pulley Wheels + 5mm Idler Pulleys</a> x1
-                <ul>
-                  <li>The timing belt is cut to the required length during assembly.</li>
-                  <li>2 of each of the bore belt pulley wheels and idler pulleys are used to translate the stepper motor rotation to linear motion for drawing.</li>
-                </ul>
-              </li>
-              <li><a href="https://www.homedepot.com/p/Falken-Design-12-in-x-12-in-x-1-8-in-Thick-Acrylic-Clear-Sheet-Falken-Design-ACRYLIC-CL-1-8-1212/308669852" target="_blank">1ft x 1ft Clear Acrylic Sheet</a> x1
-                <ul>
-                  <li>This sheet holds the entire machine.</li>
-                </ul>
-              </li>
-              <li>Thin Cardboard Sheet</a> x1
-                <ul>
-                  <li>The cardboard is cut to the size of the 3D printed base to provide a smooth drawing surface.</li>
-                </ul>
-              </li>
-              <li>Paper Clamp</a> x4
-                <ul>
-                  <li>These are used to hold the paper for drawing and cardboard base on top of the 3D printed base.</li>
-                </ul>
-              </li>
-              <li>Ultra Fine Point Sharpie</a> x1
-                <ul>
-                  <li>Any writing utensil will work, but I chose to use a Sharpie that I had for drawing.</li>
-                </ul>
-              </li>
-              <li>Plastic Zipties</a> x4
-                <ul>
-                  <li>These are used to create loops at the ends of the timing belt strips to attach to the x and y axis components.</li>
-                </ul>
-              </li>
-              <li>Bolts, Nuts and Spacers</a>
-                <ul>
-                  <li>A variable number and variable sizes of each are used to attach components together.</li>
-                </ul>
-              </li>
-              <li>Female-Male Wires</a> x3
-                <ul>
-                  <li>These wires are connected to the servo motor wires to extend their length.</li>
-                </ul>
-              </li>
-            </ul>
-
-          </div>
+          Components
+          <ul>
+            <li><a href="https://1drv.ms/u/s!AoSMfT-ytL4qh5kOiPv36b5Zz_YmLg?e=LHMcX1" target="_blank">STL Files</a>
+              <ul>
+                <li>These are the STL files I printed in PETG to assemble the machine.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B06XHKSVTG" target="_blank">Arduino UNO + CNC Shield + 4
+                A4988 Stepper Motor Drivers + Arduino Data Cable</a> x1
+              <ul>
+                <li>This kit contains all of the Arduino and CNC hardware components for this project.</li>
+                <li>I used 2 of the 4 stepper motor drivers in the project.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B07TY4BFF2" target="_blank">NEMA 17 Stepper Motor</a> x2
+              <ul>
+                <li>These motors are used for the movements along the x and y axes.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B077PW5JC3" target="_blank">12V 2A Power Supply</a> x1
+              <ul>
+                <li>This is used to supply power to the CNC shield and motors.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B072BXB2Y8" target="_blank">12V 5A Pigtail Cable Wire</a> x1
+              <ul>
+                <li>This is used to connect the power supply to the CNC shield without cutting the power supply cable to
+                  expose the inner red/black wires.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B07B4W6S2X" target="_blank">3mm x 300mm Metal Round Shaft Rod
+                Bar</a> x4
+              <ul>
+                <li>These rods allow the x and y axis components to slide freely for movement during the drawing.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B07KXZ8T4Z" target="_blank">2.7mm x 100mm Metal Round Shaft
+                Rod Bar</a> x2
+              <ul>
+                <li>These rods allow the z axis components to slide freely for movement during the drawing.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B07H3S2Y8Q" target="_blank">Servo Motor w/ Wing</a> x1
+              <ul>
+                <li>This motor moves the writing utensil along the z axis to control the drawing location.</li>
+              </ul>
+            </li>
+            <li><a href="https://www.amazon.com/gp/product/B07JKT5BZQ" target="_blank">6mm Timing Belt Roll + 5mm Bore
+                Belt Pulley Wheels + 5mm Idler Pulleys</a> x1
+              <ul>
+                <li>The timing belt is cut to the required length during assembly.</li>
+                <li>2 of each of the bore belt pulley wheels and idler pulleys are used to translate the stepper motor
+                  rotation to linear motion for drawing.</li>
+              </ul>
+            </li>
+            <li><a
+                href="https://www.homedepot.com/p/Falken-Design-12-in-x-12-in-x-1-8-in-Thick-Acrylic-Clear-Sheet-Falken-Design-ACRYLIC-CL-1-8-1212/308669852"
+                target="_blank">1ft x 1ft Clear Acrylic Sheet</a> x1
+              <ul>
+                <li>This sheet holds the entire machine.</li>
+              </ul>
+            </li>
+            <li>Thin Cardboard Sheet</a> x1
+              <ul>
+                <li>The cardboard is cut to the size of the 3D printed base to provide a smooth drawing surface.</li>
+              </ul>
+            </li>
+            <li>Paper Clamp</a> x4
+              <ul>
+                <li>These are used to hold the paper for drawing and cardboard base on top of the 3D printed base.</li>
+              </ul>
+            </li>
+            <li>Ultra Fine Point Sharpie</a> x1
+              <ul>
+                <li>Any writing utensil will work, but I chose to use a Sharpie that I had for drawing.</li>
+              </ul>
+            </li>
+            <li>Plastic Zipties</a> x4
+              <ul>
+                <li>These are used to create loops at the ends of the timing belt strips to attach to the x and y axis
+                  components.</li>
+              </ul>
+            </li>
+            <li>Bolts, Nuts and Spacers</a>
+              <ul>
+                <li>A variable number and variable sizes of each are used to attach components together.</li>
+              </ul>
+            </li>
+            <li>Female-Male Wires</a> x3
+              <ul>
+                <li>These wires are connected to the servo motor wires to extend their length.</li>
+              </ul>
+            </li>
+          </ul>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Details -->
 
-  </main><!-- End #main -->
+    </div>
+  </section><!-- End Portfolio Details -->
 
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>

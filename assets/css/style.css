@@ -440,6 +440,10 @@ section {
   margin-bottom: 0;
 }
 
+.about #logo {
+  border: 5px solid black;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -775,6 +779,7 @@ section {
   background: #fafafa;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   border: 1px solid black;
+  height: 300px;
 }
 
 .services .icon-box .icon {
