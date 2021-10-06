@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 #resume-btn {
   font-size: larger;
   font-family: "Raleway", sans-serif;
-  margin-top: 5vh;
+  margin-top: 1.5vh;
   background: #dc143c;
   border: white;
 }
@@ -315,6 +315,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero h6 {
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
 
