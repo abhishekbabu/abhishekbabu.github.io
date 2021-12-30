@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -84,7 +84,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/android-chrome-512x512.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -102,17 +102,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : " "
+  avatar           : "/assets/images/me.jpg"
+  bio              : "Incoming Software Engineer @ Robinhood"
+  location         : "Seattle, WA"
+  email            : # "babua@cs.washington.edu"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "far fa-fw fa-envelope"
       url: "mailto:babua@cs.washington.edu"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/abhishek-babu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -120,15 +120,15 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
+    - label: "Devpost"
+      icon: "fab fa-fw fa-dev"
+      url: "https://devpost.com/abhishekbabu"
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:babua@cs.washington.edu"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/abhishek-babu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -136,6 +136,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
+    - label: "Devpost"
+      icon: "fab fa-fw fa-dev"
+      url: "https://devpost.com/abhishekbabu"
 
 
 # Reading Files
