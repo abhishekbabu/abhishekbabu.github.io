@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -104,12 +104,12 @@ analytics:
 author:
   name             : " "
   avatar           : "/assets/images/me.jpg"
-  bio              : "Incoming Software Engineer @ Robinhood"
+  bio              : "Computer Scientist, Software Engineer & Data Scientist"
   location         : "Seattle, WA"
   email            : # "babua@cs.washington.edu"
   links:
     - label: "Email"
-      icon: "far fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:babua@cs.washington.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
@@ -117,12 +117,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abhishekbabu"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/abhishekbabu04"
     - label: "Devpost"
       icon: "fab fa-fw fa-dev"
       url: "https://devpost.com/abhishekbabu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/abhishekbabu04"
 
 # Site Footer
 footer:
@@ -133,12 +133,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/abhishekbabu"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/abhishekbabu04"
     - label: "Devpost"
       icon: "fab fa-fw fa-dev"
       url: "https://devpost.com/abhishekbabu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/abhishekbabu04"
 
 
 # Reading Files
@@ -206,27 +206,27 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: #/:categories/:title/
+paginate: #5 # amount of posts to show
+paginate_path: #/page:num/
+timezone: #America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
 
 
 # Archives
@@ -269,16 +269,16 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: false
+  #     share: false
+  #     related: false
   # _pages
   - scope:
       path: "_pages"
