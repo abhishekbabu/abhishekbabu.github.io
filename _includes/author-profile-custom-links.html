@@ -1,5 +1,14 @@
 <li>
-  <a href="{{ site.baseurl }}/assets/docs/resume.pdf" target="_blank" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+  <a href="{{ site.baseurl }}/assets/docs/resume.pdf" target="_blank" itemprop="sameAs"
+    rel="nofollow noopener noreferrer me">
     <i class="fas fa-fw fa-file" aria-hidden="true"></i><span class="label">Resume</span>
   </a>
 </li>
+{% if site.minimal_mistakes_skin_alt %}
+<li>
+  <a href="#" itemprop="sameAs" rel="nofollow noopener noreferrer me"
+    onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');if(node1.getAttribute('rel')=='stylesheet'){node2.setAttribute('rel', 'stylesheet'); node1.setAttribute('rel', 'stylesheet alternate'); sessionStorage.setItem('theme', 'dark');}else{node1.setAttribute('rel', 'stylesheet'); node2.setAttribute('rel', 'stylesheet alternate'); sessionStorage.setItem('theme', 'light');} return false;">
+    <i class="fas fa-fw fa-sun" aria-hidden="true"></i><span class="label">Switch Theme</span>
+  </a>
+</li>
+{% endif %}

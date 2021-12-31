@@ -12,7 +12,8 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin_alt: "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,9 +109,6 @@ author:
   location         : "Seattle, WA"
   email            : # "babua@cs.washington.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:babua@cs.washington.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/abhishek-babu"
@@ -123,6 +121,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:babua@cs.washington.edu"
 
 # Site Footer
 footer:
@@ -139,6 +140,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:babua@cs.washington.edu"
 
 
 # Reading Files
