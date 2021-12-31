@@ -3,11 +3,13 @@ main:
   - title: "Home"
     url: /
   - title: "Experience"
-    url: "#"
+    url: "/experience"
+  - title: "Projects"
+    url: "/projects"
   - title: "Skills"
-    url: "#"
+    url: "/skills"
   - title: "Academics"
-    url: "#"
+    url: "/academics"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
