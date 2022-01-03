@@ -17,6 +17,13 @@
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
+          {% if site.minimal_mistakes_skin_alt %}
+            <li class="masthead__menu-item">
+              <a href="#" onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');icon=document.getElementById('theme-icon');if(node1.getAttribute('rel')=='stylesheet'){node2.setAttribute('rel', 'stylesheet'); node1.setAttribute('rel', 'stylesheet alternate'); icon.setAttribute('class', 'fas fa-fw fa-sun'); sessionStorage.setItem('theme', 'dark');}else{node1.setAttribute('rel', 'stylesheet'); node2.setAttribute('rel', 'stylesheet alternate'); icon.setAttribute('class', 'fas fa-fw fa-moon'); sessionStorage.setItem('theme', 'light');} return false;">
+                <i id="theme-icon" class="fas fa-fw fa-moon" aria-hidden="true"></i>
+              </a>
+            </li>
+          {% endif %}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
