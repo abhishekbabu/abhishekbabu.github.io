@@ -1,0 +1,17 @@
+---
+permalink: /teaching
+title: "Teaching"
+layout: single
+---
+### [Paul G. Allen School of Computer Science & Engineering](http://cs.washington.edu/){:target="_blank"}
+**Graduate Teaching Assistant**\
+Sep 2021 - Present
+
+Course: [CSE 442 - Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}\
+Professor: [Jeffrey Heer](https://homes.cs.washington.edu/~jheer/){:target="_blank"}\
+Quarters: [Fall 2021](https://courses.cs.washington.edu/courses/cse442/21au/){:target="_blank"} & [Winter 2022](https://courses.cs.washington.edu/courses/cse442/22wi/){:target="_blank"}
+- Hosting office hours to answer students' conceptual and technical questions, and help resolve technical issues for visualization libraries and platforms
+- Grading assignments and providing feedback on visualization design, static visualizations, interactive visualizations, web-based visualizations and more
+- Monitoring the course discussion board and resolving questions regarding visualization concepts and implementations
+- Co-leading an interactive walkthrough lecture on D3.js (twice with [Vishal Devireddy](https://vishald.com/){:target="_blank"})
+- Tools and technologies taught: Observable, JavaScript, TypeScript, Vega-Lite, Tableau, D3.js, HTML/CSS

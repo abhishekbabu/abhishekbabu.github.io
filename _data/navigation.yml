@@ -2,12 +2,14 @@
 main:
   - title: "Home"
     url: /
-  - title: "Experience"
-    url: "/experience"
+  - title: "Industry"
+    url: "/industry"
+  - title: "Research"
+    url: "/research"
+  - title: "Teaching"
+    url: "/teaching"
   - title: "Projects"
     url: "/projects"
-  - title: "Skills"
-    url: "/skills"
   - title: "Academics"
     url: "/academics"
   # - title: "Sample Posts"

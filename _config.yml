@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Abhishek Babu"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : " "
+name                     : "Abhishek Babu"
 description              : "Abhishek Babu's personal website."
 url                      : "https://abhishekbabu.github.io"
 baseurl                  : "/dev"
@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : " "
+  name             : # "அபிஷேக் பாபு"
   avatar           : "/assets/images/me.jpg"
   bio              : "Computer Scientist, Software Engineer & Data Scientist"
   location         : "Seattle, WA"
