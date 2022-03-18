@@ -7,6 +7,11 @@ layout: single
 **Graduate Teaching Assistant**\
 Sep 2021 - Present
 
+Course: [CSE 412 - Data Visualization](https://courses.cs.washington.edu/courses/cse412/){:target="_blank"}\
+Professor: [Jon Froehlich](https://jonfroehlich.github.io/){:target="_blank"}\
+Quarters: [Spring 2022](https://courses.cs.washington.edu/courses/cse412/22sp/){:target="_blank"}
+- *This course is the non-major version of the CSE 442 course below*
+
 Course: [CSE 442 - Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}\
 Professor: [Jeffrey Heer](https://homes.cs.washington.edu/~jheer/){:target="_blank"}\
 Quarters: [Fall 2021](https://courses.cs.washington.edu/courses/cse442/21au/){:target="_blank"} & [Winter 2022](https://courses.cs.washington.edu/courses/cse442/22wi/){:target="_blank"}
