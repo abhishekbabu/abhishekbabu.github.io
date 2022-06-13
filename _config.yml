@@ -107,7 +107,7 @@ author:
   avatar           : "/assets/images/me.jpg"
   bio              : "Computer Scientist, Software Engineer & Data Scientist"
   location         : "Seattle, WA"
-  email            : # "babua@cs.washington.edu"
+  email            : # "abbabu0411@gmail.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
@@ -123,7 +123,7 @@ author:
       url: "https://twitter.com/abhishekbabu04"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:babua@cs.washington.edu"
+      url: "mailto:abbabu0411@gmail.com"
 
 # Site Footer
 footer:
@@ -142,7 +142,7 @@ footer:
       url: "https://twitter.com/abhishekbabu04"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:babua@cs.washington.edu"
+      url: "mailto:abbabu0411@gmail.com"
 
 
 # Reading Files
