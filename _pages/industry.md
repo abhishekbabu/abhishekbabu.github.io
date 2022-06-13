@@ -6,7 +6,7 @@ layout: single
 ### [Robinhood](https://robinhood.com/us/en/){:target="_blank"}
 **Incoming Software Engineer**\
 Oct 2021 - Present
-- Starting as a Software Engineer on the backend platform in August 2022!
+- Starting as a Backend Software Engineer in August 2022!
 
 ### [Cledge](https://cledge.org/){:target="_blank"}
 **Lead Software Engineer**\

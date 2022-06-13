@@ -25,13 +25,15 @@
       sessionStorage.setItem('theme', 'dark');
       node1 = document.getElementById('theme_source');
       node2 = document.getElementById('theme_source_2');
+      icon = document.getElementById('theme-icon');
       node2.setAttribute('rel', 'stylesheet');
       node1.setAttribute('rel', 'stylesheet alternate');
+      icon.setAttribute('class', 'fas fa-fw fa-sun');
     } else {
       sessionStorage.setItem('theme', 'light');
     }
   }
-  window.onload = setInitTheme;
+  window.onload = setInitTheme; 
 </script>
 {% endif %}
 
