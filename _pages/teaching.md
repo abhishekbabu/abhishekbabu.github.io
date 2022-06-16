@@ -3,7 +3,7 @@ permalink: /teaching
 title: "Teaching"
 layout: single
 ---
-### [Paul G. Allen School of Computer Science & Engineering](http://cs.washington.edu/){:target="_blank"}
+## [Paul G. Allen School of Computer Science & Engineering](http://cs.washington.edu/){:target="_blank"}
 **Graduate Teaching Assistant**\
 Sep 2021 - Jun 2022
 

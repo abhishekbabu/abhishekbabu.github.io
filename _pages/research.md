@@ -3,14 +3,14 @@ permalink: /research
 title: "Research"
 layout: single
 ---
-### [Ubiquitous Computing Lab](http://ubicomplab.cs.washington.edu/){:target="_blank"}
+## [Ubiquitous Computing Lab](http://ubicomplab.cs.washington.edu/){:target="_blank"}
 **Graduate Research Assistant**\
 Oct 2021 - Mar 2022\
 Project: pHastCam
 - Built a prototype Android application to take RAW and YUV format images of specially designed pH indicator strips
 - Integrated realtime image analysis using OpenCV as a means of assessing image quality
 
-### [Autonomous Flight Systems Lab](https://sites.uw.edu/afsl/){:target="_blank"}
+## [Autonomous Flight Systems Lab](https://sites.uw.edu/afsl/){:target="_blank"}
 
 **Technical Project Lead**\
 Jul 2019 - Jun 2021\
