@@ -18,7 +18,7 @@ Course: [CSE 442 - Data Visualization](https://courses.cs.washington.edu/courses
 Professor: [Jeffrey Heer](https://homes.cs.washington.edu/~jheer/){:target="_blank"}\
 Quarters: [Fall 2021](https://courses.cs.washington.edu/courses/cse442/21au/){:target="_blank"}, [Winter 2022](https://courses.cs.washington.edu/courses/cse442/22wi/){:target="_blank"}
 - Hosted office hours to answer students' conceptual and technical questions, and help resolve technical issues for visualization libraries and platforms
-- Graded assignments and providing feedback on visualization design, static visualizations, interactive visualizations, web-based visualizations and more
+- Graded assignments and provided feedback on visualization designs, static visualizations, interactive visualizations, web-based visualizations and more
 - Monitored the course discussion board and resolved questions regarding visualization concepts and implementations
 - Co-led an interactive walkthrough lecture on D3.js (twice with [Vishal Devireddy](https://vishald.com/){:target="_blank"})
 - Tools and technologies taught: Observable, JavaScript, TypeScript, Vega-Lite, Tableau, D3.js, HTML/CSS
