@@ -105,8 +105,8 @@ analytics:
 author:
   name             : # "அபிஷேக் பாபு"
   avatar           : "/assets/images/me.jpg"
-  bio              : "Computer Scientist, Software Engineer & Data Scientist"
-  location         : "Seattle, WA"
+  bio              : "Software Engineer & Computer Scientist"
+  location         : "Sunnyvale, CA"
   email            : # "abbabu0411@gmail.com"
   links:
     - label: "LinkedIn"
