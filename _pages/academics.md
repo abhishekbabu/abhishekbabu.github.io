@@ -49,36 +49,41 @@ Sep 2018 - Jun 2021\
         <tr>
             <td markdown="span">[Machine Learning](https://courses.cs.washington.edu/courses/cse546/){:target="_blank"}</td>
             <td markdown="span">[Algorithms](https://courses.cs.washington.edu/courses/cse421/){:target="_blank"}</td>
-            <td markdown="span">[Linear Analysis](https://math.washington.edu/math209309){:target="_blank"}</td>
+            <td markdown="span">[Linear Algebra](https://math.washington.edu/math208308){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Machine Learning for Big Data](https://courses.cs.washington.edu/courses/cse547/){:target="_blank"}</td>
             <td markdown="span">[Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}</td>
-            <td markdown="span">[Advanced Linear Algebra](https://sites.math.washington.edu/~m318/){:target="_blank"}</td>
+            <td markdown="span">[Linear Analysis](https://math.washington.edu/math209309){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Artificial Intelligence](https://courses.cs.washington.edu/courses/cse573/){:target="_blank"}</td>
             <td markdown="span">[Database Systems Internals](https://courses.cs.washington.edu/courses/cse444/){:target="_blank"}</td>
-            <td markdown="span">[Mathematics of Democracy (Special Offering)](https://math.washington.edu/special-offerings){:target="_blank"}</td>
+            <td markdown="span">[Advanced Linear Algebra](https://sites.math.washington.edu/~m318/){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Deep Learning](https://courses.cs.washington.edu/courses/cse599g1/){:target="_blank"}</td>
             <td markdown="span">[Operating Systems](https://courses.cs.washington.edu/courses/cse451/){:target="_blank"}</td>
-            <td markdown="span">[Systems Seminar](https://courses.cs.washington.edu/courses/cse590s/){:target="_blank"}</td>
+            <td markdown="span">[Mathematics of Democracy (Special Offering)](https://math.washington.edu/special-offerings){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span"></td>
             <td markdown="span">[Computer Vision](https://courses.cs.washington.edu/courses/cse455/){:target="_blank"}</td>
-            <td markdown="span">[Security Seminar](https://courses.cs.washington.edu/courses/cse590y/){:target="_blank"}</td>
+            <td markdown="span">[Systems Seminar](https://courses.cs.washington.edu/courses/cse590s/){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span"></td>
             <td markdown="span">[Computer Communication Networks](https://courses.cs.washington.edu/courses/cse461/){:target="_blank"}</td>
-            <td markdown="span">[Robotics Colloquium](https://courses.cs.washington.edu/courses/cse590r/){:target="_blank"}</td>
+            <td markdown="span">[Security Seminar](https://courses.cs.washington.edu/courses/cse590y/){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span"></td>
             <td markdown="span">[Computer Security](https://courses.cs.washington.edu/courses/cse484/){:target="_blank"}</td>
+            <td markdown="span">[Robotics Colloquium](https://courses.cs.washington.edu/courses/cse590r/){:target="_blank"}</td>
+        </tr>
+        <tr>
+            <td markdown="span"></td>
+            <td markdown="span"></td>
             <td markdown="span">[Scientific Computing](https://www.washington.edu/students/crscat/appmath.html#amath301){:target="_blank"}</td>
         </tr>
     </tbody>
