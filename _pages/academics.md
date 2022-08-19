@@ -20,8 +20,12 @@ Sep 2018 - Jun 2021\
 **GPA:** 3.97/4.00
 - [Data Science Option](https://cs.washington.edu/academics/ugrad/current-students/degree/data-science){:target="_blank"}
 - [Minor in Mathematics](https://math.washington.edu/math-minor){:target="_blank"}
+- Scholarships:
+    - [Su Family Endowed Scholarship](https://www.cs.washington.edu/students/ugrad/departmental/su){:target="_blank"} *(2020-21)*
+    - [Microsoft Endowed Scholarship](https://www.cs.washington.edu/students/ugrad/departmental/msendow){:target="_blank"} *(2019-20)*
 
 ## Coursework
+**Capstone:** [Data Science Capstone](https://courses.cs.washington.edu/courses/cse481ds/){:target="_blank"}
 <table>
     <colgroup>
         <col width="33%" />
@@ -39,32 +43,32 @@ Sep 2018 - Jun 2021\
         <tr>
             <td markdown="span">[Natural Language Processing](https://courses.cs.washington.edu/courses/cse517/){:target="_blank"}</td>
             <td markdown="span">[Systems Programming](https://courses.cs.washington.edu/courses/cse333/){:target="_blank"}</td>
-            <td markdown="span">[Data Science Capstone](https://courses.cs.washington.edu/courses/cse481ds/){:target="_blank"}</td>
+            <td markdown="span">[Differential Equations](https://math.washington.edu/math207307){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Computational Complexity](https://courses.cs.washington.edu/courses/cse531/){:target="_blank"}</td>
             <td markdown="span">[Data Management](https://courses.cs.washington.edu/courses/cse344/){:target="_blank"}</td>
-            <td markdown="span">[Differential Equations](https://math.washington.edu/math207307){:target="_blank"}</td>
+            <td markdown="span">[Linear Algebra](https://math.washington.edu/math208308){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Machine Learning](https://courses.cs.washington.edu/courses/cse546/){:target="_blank"}</td>
             <td markdown="span">[Algorithms](https://courses.cs.washington.edu/courses/cse421/){:target="_blank"}</td>
-            <td markdown="span">[Linear Algebra](https://math.washington.edu/math208308){:target="_blank"}</td>
+            <td markdown="span">[Linear Analysis](https://math.washington.edu/math209309){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Machine Learning for Big Data](https://courses.cs.washington.edu/courses/cse547/){:target="_blank"}</td>
             <td markdown="span">[Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}</td>
-            <td markdown="span">[Linear Analysis](https://math.washington.edu/math209309){:target="_blank"}</td>
+            <td markdown="span">[Advanced Linear Algebra](https://sites.math.washington.edu/~m318/){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Artificial Intelligence](https://courses.cs.washington.edu/courses/cse573/){:target="_blank"}</td>
             <td markdown="span">[Database Systems Internals](https://courses.cs.washington.edu/courses/cse444/){:target="_blank"}</td>
-            <td markdown="span">[Advanced Linear Algebra](https://sites.math.washington.edu/~m318/){:target="_blank"}</td>
+            <td markdown="span">[Mathematics of Democracy (Special Offering)](https://math.washington.edu/special-offerings){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span">[Deep Learning](https://courses.cs.washington.edu/courses/cse599g1/){:target="_blank"}</td>
             <td markdown="span">[Operating Systems](https://courses.cs.washington.edu/courses/cse451/){:target="_blank"}</td>
-            <td markdown="span">[Mathematics of Democracy (Special Offering)](https://math.washington.edu/special-offerings){:target="_blank"}</td>
+            <td markdown="span">[Robotics Colloquium](https://courses.cs.washington.edu/courses/cse590r/){:target="_blank"}</td>
         </tr>
         <tr>
             <td markdown="span"></td>
@@ -79,11 +83,6 @@ Sep 2018 - Jun 2021\
         <tr>
             <td markdown="span"></td>
             <td markdown="span">[Computer Security](https://courses.cs.washington.edu/courses/cse484/){:target="_blank"}</td>
-            <td markdown="span">[Robotics Colloquium](https://courses.cs.washington.edu/courses/cse590r/){:target="_blank"}</td>
-        </tr>
-        <tr>
-            <td markdown="span"></td>
-            <td markdown="span"></td>
             <td markdown="span">[Scientific Computing](https://www.washington.edu/students/crscat/appmath.html#amath301){:target="_blank"}</td>
         </tr>
     </tbody>
