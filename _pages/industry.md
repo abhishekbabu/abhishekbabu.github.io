@@ -7,7 +7,8 @@ layout: single
 **Software Engineer**\
 Menlo Park, CA\
 Aug 2022 - Present
-- Money Movement - Payments Core Team
+- Money Movement - Wallets Team
+- **Skills:** Go
 
 ## [Cledge](https://cledge.org/){:target="_blank"}
 **Lead Software Engineer**\
