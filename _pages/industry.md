@@ -7,8 +7,8 @@ layout: single
 **Software Engineer**\
 Menlo Park, CA\
 Aug 2022 - Present
-- Money Movement - Wallets Team
-- **Skills:** Go
+- Building best-in-class payment rails in Money Movement
+- **Skills:** Golang, Python, Apache Kafka, PostgreSQL, AWS, Kubernetes, Docker, Humio, Grafana, Postman, REST, gRPC
 
 ## [Cledge](https://cledge.org/){:target="_blank"}
 **Lead Software Engineer**\
