@@ -13,7 +13,7 @@ Professor: [Jon Froehlich](https://jonfroehlich.github.io/){:target="_blank"}\
 Quarters: [Spring 2022](https://courses.cs.washington.edu/courses/cse412/22sp/){:target="_blank"}
 - *This course is the non-major version of the CSE 442 course below*
 - Led a weekly TA teaching session, teaching and creating activities to build proficiency in visualization tools and libraries in addition to the below responsibilities
-- **Skills:** JavaScript, p5.js, Observable, Tableau, Vega-Lite
+- **Skills:** JavaScript, p5.js, Vega-Lite, Tableau, Observable
 
 Course: [CSE 442 - Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}\
 Professor: [Jeffrey Heer](https://homes.cs.washington.edu/~jheer/){:target="_blank"}\
@@ -22,4 +22,4 @@ Quarters: [Fall 2021](https://courses.cs.washington.edu/courses/cse442/21au/){:t
 - Graded assignments and provided feedback on visualization designs, static visualizations, interactive visualizations, web-based visualizations and more
 - Monitored the course discussion board and resolved questions regarding visualization concepts and implementations
 - Co-led an interactive walkthrough lecture on D3.js (twice with [Vishal Devireddy](https://vishald.com/){:target="_blank"})
-- **Skills:** JavaScript, D3.js, HTML/CSS, Observable, Tableau, Vega-Lite, TypeScript
+- **Skills:** TypeScript, JavaScript, HTML, CSS, D3.js, Vega-Lite, Tableau, Observable

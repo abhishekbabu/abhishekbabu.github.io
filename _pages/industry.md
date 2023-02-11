@@ -8,7 +8,7 @@ layout: single
 Menlo Park, CA\
 Aug 2022 - Present
 - Building best-in-class payment rails in Money Movement
-- **Skills:** Golang, Python, Apache Kafka, PostgreSQL, AWS, Kubernetes, Docker, Humio, Grafana, Postman, REST, gRPC
+- **Skills:** Golang, Python, Apache Kafka, Apache Airflow, Kubernetes, Docker, AWS, PostgreSQL, Grafana, Humio, Postman
 
 ## [Cledge](https://cledge.org/){:target="_blank"}
 **Lead Software Engineer**\
@@ -20,14 +20,14 @@ Jun 2021 - Oct 2021
 - Implemented a data pipeline to build a search index with data from the [College Scorecard](https://collegescorecard.ed.gov/){:target="_blank"} and [IPEDS](https://nces.ed.gov/ipeds/){:target="_blank"} datasets
 - Built a fully automated web scraper to scrape Creative Commons licensed images of college campuses from Google Image Search
 - Cledge was picked up by [Microsoft for Startups](https://startups.microsoft.com/){:target="_blank"} in July 2021
-- **Skills:** Python, Apache Spark, Pandas, Git, JavaScript, Node.js, React.js, Selenium, HTML, CSS, SQL, Microsoft Azure, Firebase, Flutter, Jupyter, Express, TypeScript
+- **Skills:** Python, Microsoft Azure, Firebase, Apache Spark, Pandas, TypeScript, JavaScript, HTML, CSS, Selenium, Node.js, Express, React.js, Jupyter, Flutter
 
 ## [P&#227;rv.ai](https://www.linkedin.com/company/parvai/){:target="_blank"}
 **Software Engineer Intern**\
 Redmond, WA\
 Jun 2020 - Sep 2020
 - Developed both static and dynamic web content to showcase Parv.ai, an educational startup platform that harnesses artificial intelligence and machine learning techniques to perform content recommendation algorithms on MOOCs from providers including Udemy and edX
-- **Skills:** Git, JavaScript, Node.js, React.js, HTML, CSS, Microsoft Azure
+- **Skills:** Microsoft Azure, JavaScript, HTML, CSS, Node.js, React.js
 
 ## [CodeDay](https://www.codeday.org/){:target="_blank"}
 **CodeLabs Intern**\
@@ -38,7 +38,7 @@ Jul 2020 - Aug 2020
 - Conducted project development in an Agile environment
 - Developed a multi-class convolutional neural network to classify processed resumes, achieving 87% test accuracy
 - Integrated the data processing pipeline and neural network in a web server deployed on Heroku
-- **Skills:** Python, TensorFlow, Git, JavaScript, Node.js, HTML, CSS, Jupyter, NLTK, Express
+- **Skills:** Python, TensorFlow, NLTK, JavaScript, HTML, CSS, Node.js, Express, Jupyter
 
 ## [Tata Consultancy Services](https://www.tcs.com/){:target="_blank"}
 **Software Engineer Intern**\
@@ -49,4 +49,4 @@ Aug 2019 - Sep 2019
 - Populated a key-value store and a data lake with time-stamped analysis results and snapshots
 - Implemented offline human detection with Haar Cascade classifiers to optimize API calls, reducing application cost by 90%
 - Documented product development process and dependencies
-- **Skills:** C#, Git, Microsoft Azure, OpenCV, Raspberry Pi
+- **Skills:** Microsoft Azure, OpenCV, C#, Raspberry Pi

@@ -95,7 +95,7 @@ Sep 2018 - Jun 2021\
 - **Course:** [Artificial Intelligence (SP '22)](https://courses.cs.washington.edu/courses/cse573/22sp/){:target="_blank"}
 - Partner(s): [Arkaprabha Bhattacharya](https://www.linkedin.com/in/arkaprabhabhattacharya/){:target="_blank"}
 - A GRU-based neural network model that classifies tweets as being related to real disaster/emergency events or not
-- Achieved a test accuracy of 0.81152
+- Achieved a test accuracy of **0.81152**
 
 ### Rice Classification
 [<i class="fab fa-github"></i>](https://github.com/abhishekbabu/cse455-rice-classification){:target="_blank"} [<i class="fas fa-link"></i>](https://abhishekbabu.github.io/cse455-rice-classification/){:target="_blank"} [<i class="fab fa-kaggle"></i>](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset){:target="_blank"}

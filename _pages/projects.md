@@ -8,13 +8,13 @@ layout: single
 [<i class="fab fa-spotify"></i>](https://spotivizual.herokuapp.com/){:target="_blank"} [<i class="fab fa-github"></i>](https://github.com/abhishekbabu/spotiviz){:target="_blank"}
 - Date(s): Jul 2020 - Aug 2021
 - A web application that displays users' most recently played tracks and their most listened artists and tracks on Spotify
-- **Technologies:** Python, Flask, Requests, Spotify Web API, Bootstrap, HTML/CSS
+- **Technologies:** Python, Spotify Web API, Flask, Bootstrap, HTML, CSS
 
 ## Alavu Mantra
 [<i class="fab fa-github"></i>](https://github.com/BreathOfHope/Anthropometry){:target="_blank"} [<i class="fab fa-youtube"></i>](https://www.youtube.com/watch?v=SXS66NLWVTQ){:target="_blank"}
 - Date(s): Aug 2020 - Dec 2020
 - A web application that estimates people's height and weight from an image of them using a physical marker
-- **Technologies:** Python, TensorFlow, Keras, dlib, TensorFlow.js, OpenCV, ArUco markers, Node.js, Express, JavaScript, Pug, CSS, Bootstrap, Heroku
+- **Technologies:** Python, JavaScript, TensorFlow, TensorFlow.js, Keras, dlib, OpenCV, ArUco markers, Heroku, Node.js, Express, Booststrap, Pug, CSS
 
 ## ReadAct
 [<i class="fab fa-github"></i>](https://github.com/abhishekbabu/readact){:target="_blank"} [<i class="fab fa-dev"></i>](https://devpost.com/software/readact){:target="_blank"}
@@ -22,8 +22,7 @@ layout: single
 - Hackathon: [DubHacks 2020](https://dubhacks-2020.devpost.com){:target="_blank"}
 - Partner(s): [Kevin Zhu](https://www.linkedin.com/in/kevin-zhu7){:target="_blank"}, [Amartya Ranganathan](https://www.linkedin.com/in/amartyaranganathan){:target="_blank"}, [Leslie Lin](https://www.linkedin.com/in/leslie-lin){:target="_blank"}
 - A Google Chrome extension that analyzes political bias in articles read by the user and displays information about candidates and measures referenced in articles in a popover
-- **Technologies:** Bipartisan Press API, WeVote API, Microsoft Azure Text Analytics API, Google Chrome Extension API, JavaScript, jQuery, Bootstrap, D3.js, HTML/CSS
-
+- **Technologies:** JavaScript, Bipartisan Press API, WeVote API, Microsoft Azure Text Analytics API, Google Chrome Extension API, D3.js, jQuery, Bootstrap, HTML, CSS
 
 ## CNC Drawing Machine
 [<i class="fab fa-youtube"></i>](https://www.youtube.com/watch?v=fC6z2C1CR8M){:target="_blank"}
@@ -46,7 +45,7 @@ layout: single
 - Hackathon: [Virtual CodeDay Spring 2020](https://showcase.codeday.org/projects/virtual-codeday-spring-2020){:target="_blank"}
 - Partner(s): [Kevin Zhu](https://www.linkedin.com/in/kevin-zhu7){:target="_blank"}
 - A Google Chrome extension that displays country-wise statistics about the COVID-19 pandemic and a chart of the number of cases over the last 30 days for each country
-- **Technologies:** Google Chrome Extension API, NovelCOVID API, Fetch API, JavaScript, D3.js, HTML/CSS
+- **Technologies:** JavaScript, Google Chrome Extension API, NovelCOVID API, Fetch API, D3.js, HTML, CSS
 
 ## 3D Printed Dremel
 [<i class="fab fa-youtube"></i>](https://www.youtube.com/watch?v=TkzcDCdsDgQ){:target="_blank"}
