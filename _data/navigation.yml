@@ -2,19 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "Industry"
-    url: "/industry"
-  - title: "Research"
-    url: "/research"
-  - title: "Teaching"
-    url: "/teaching"
+  - title: "Experience"
+    url: "/experience"
   - title: "Projects"
     url: "/projects"
   - title: "Academics"
     url: "/academics"
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Vinyls"
+    url: "/vinyls"

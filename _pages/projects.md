@@ -5,7 +5,7 @@ layout: single
 ---
 
 ## SpotiViz
-[<i class="fab fa-spotify"></i>](https://spotivizual.herokuapp.com/){:target="_blank"} [<i class="fab fa-github"></i>](https://github.com/abhishekbabu/spotiviz){:target="_blank"}
+[<i class="fab fa-github"></i>](https://github.com/abhishekbabu/spotiviz){:target="_blank"}
 - Date(s): Jul 2020 - Aug 2021
 - A web application that displays users' most recently played tracks and their most listened artists and tracks on Spotify
 - **Technologies:** Python, Spotify Web API, Flask, Bootstrap, HTML, CSS
