@@ -117,3 +117,56 @@ Sep 2018 - Jun 2021\
 - An exploration of regression analysis and matching analysis methods to understand the individual impacts of socioeconomic and climatic factors on mental health outcomes in United States counties
 - Regression models explored: Lasso, Ridge, LinearGAM, Gradient Boosting, Random Forest
 - We employ Nearest Neighbor Matching with replacement using the Generalized Linear Model distance metric and tune a caliper as needed for producing high-quality matchings
+
+## Research
+
+### [Ubiquitous Computing Lab](http://ubicomplab.cs.washington.edu/){:target="_blank"}
+**Graduate Research Assistant**\
+Seattle, WA\
+Oct 2021 - Mar 2022\
+Project: pHastCam
+- Built a prototype Android application to take RAW and YUV format images of specially designed pH indicator strips
+- Integrated realtime image analysis using OpenCV as a means of assessing image quality
+- **Skills:** OpenCV, Java, Android Studio
+
+### [Autonomous Flight Systems Lab](https://sites.uw.edu/afsl/){:target="_blank"}
+**Technical Project Lead**\
+Seattle, WA\
+Jul 2019 - Jun 2021\
+Project: Laboratory Reconciliation and Information Project (LARI)
+- Spearheaded the development of the project using Agile project management methodologies
+- Migrated the project codebase from Perforce to GitHub
+- Led the data migration process from Excel sheets and XML files into SQLite databases
+- New data management solution led to an 80% increase in efficiency between aircraft readiness and flight testing
+- **Skills:** SQLite, Java
+
+**Undergraduate Research Assistant**\
+Seattle, WA\
+Apr 2019 - Jul 2019\
+Project: Laboratory Reconciliation and Information Project (LARI)
+- Developed a database management application for internal lab purposes to track hardware components and flight data
+- Implemented automatic flight test checklist generation using component tracking data
+- **Skills:** SQLite, Java, C#
+
+## Teaching
+
+### [Paul G. Allen School of Computer Science & Engineering](http://cs.washington.edu/){:target="_blank"}
+**Graduate Teaching Assistant**\
+Seattle, WA\
+Sep 2021 - Jun 2022
+
+Course: [CSE 412 - Data Visualization](https://courses.cs.washington.edu/courses/cse412/){:target="_blank"}\
+Professor: [Jon Froehlich](https://jonfroehlich.github.io/){:target="_blank"}\
+Quarters: [Spring 2022](https://courses.cs.washington.edu/courses/cse412/22sp/){:target="_blank"}
+- *This course is the non-major version of the CSE 442 course below*
+- Led a weekly TA teaching session, teaching and creating activities to build proficiency in visualization tools and libraries in addition to the below responsibilities
+- **Skills:** JavaScript, p5.js, Vega-Lite, Tableau, Observable
+
+Course: [CSE 442 - Data Visualization](https://courses.cs.washington.edu/courses/cse442/){:target="_blank"}\
+Professor: [Jeffrey Heer](https://homes.cs.washington.edu/~jheer/){:target="_blank"}\
+Quarters: [Fall 2021](https://courses.cs.washington.edu/courses/cse442/21au/){:target="_blank"}, [Winter 2022](https://courses.cs.washington.edu/courses/cse442/22wi/){:target="_blank"}
+- Hosted office hours to answer students' conceptual and technical questions, and help resolve technical issues for visualization libraries and platforms
+- Graded assignments and provided feedback on visualization designs, static visualizations, interactive visualizations, web-based visualizations and more
+- Monitored the course discussion board and resolved questions regarding visualization concepts and implementations
+- Co-led an interactive walkthrough lecture on D3.js (twice with [Vishal Devireddy](https://vishald.com/){:target="_blank"})
+- **Skills:** TypeScript, JavaScript, HTML, CSS, D3.js, Vega-Lite, Tableau, Observable
