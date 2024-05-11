@@ -4,9 +4,13 @@ title: "Experience"
 layout: single
 ---
 ## [Robinhood](https://robinhood.com/us/en/){:target="_blank"}
+**Software Engineer II**\
+Mar 2024 - Present\
+Menlo Park, CA
+
 **Software Engineer**\
-Menlo Park, CA\
-Aug 2022 - Present
+Aug 2022 - Feb 2024\
+Menlo Park, CA
 - **Team:** Money Movement
 - Currently building seamless and integrated payment features for the [Robinhood Gold Credit Card](https://robinhood.com/creditcard/){:target="_blank"}
 - Built and launched Robinhood’s instant bank deposit payment rail, known in the industry as [Request for Payment](https://www.moderntreasury.com/learn/request-for-payment){:target="_blank"}, bringing in >$1B in deposit volume since launch
@@ -19,8 +23,8 @@ Aug 2022 - Present
 
 ## [Cledge](https://cledge.org/){:target="_blank"}
 **Lead Software Engineer**\
-Seattle, WA\
-Jun 2021 - Oct 2021
+Jun 2021 - Oct 2021\
+Seattle, WA
 - Built the user profiling functionality and a heuristic content recommendation algorithm using Flutter and a Cloud Firestore database on Firebase
 - Developed database management consoles using Node.js and React.js, resulting in a 75% reduction in data entry time for content developers
 - Built a Python data pipeline using Apache Spark to populate an Azure Cognitive Search Index with data from the [College Scorecard](https://collegescorecard.ed.gov/){:target="_blank"} and [IPEDS](https://nces.ed.gov/ipeds/){:target="_blank"} datasets
@@ -30,15 +34,15 @@ Jun 2021 - Oct 2021
 
 ## [P&#227;rv.ai](https://www.linkedin.com/company/parvai/){:target="_blank"}
 **Software Engineer Intern**\
-Redmond, WA\
-Jun 2020 - Sep 2020
+Jun 2020 - Sep 2020\
+Redmond, WA
 - Developed both static and dynamic web content to showcase Parv.ai, an educational startup platform that harnesses artificial intelligence and machine learning techniques to perform content recommendation algorithms on MOOCs from providers including Udemy and edX
 - **Skills:** Microsoft Azure, JavaScript, HTML, CSS, Node.js, React.js
 
 ## [CodeDay](https://www.codeday.org/){:target="_blank"}
 **CodeLabs Intern**\
-Remote\
-Jul 2020 - Aug 2020
+Jul 2020 - Aug 2020\
+Remote
 - Built a resume classification platform to predict job categories of resumes using NLP techniques
 - Implemented a data processing pipeline to extract meaningful content from resume text
 - Conducted project development in an Agile environment
@@ -48,8 +52,8 @@ Jul 2020 - Aug 2020
 
 ## [Tata Consultancy Services](https://www.tcs.com/){:target="_blank"}
 **Software Engineer Intern**\
-Bellevue, WA\
-Aug 2019 - Sep 2019
+Aug 2019 - Sep 2019\
+Bellevue, WA
 - Developed a cross platform application on a Raspberry Pi 4 to snapshot a conference room at regular intervals and gain insights into conference room usage throughout the work day
 - Leveraged Cognitive Services’ Computer Vision API and Face API for human detection and facial recognition analysis on snapshots
 - Populated a key-value store and a data lake with time-stamped analysis results and snapshots
