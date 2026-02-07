@@ -105,7 +105,7 @@ analytics:
 author:
   name             : # "அபிஷேக் பாபு"
   avatar           : "/assets/images/me.jpg"
-  bio              : "Software Engineer & Vinyl Collector"
+  bio              : "Software Engineer"
   location         : "Redwood City, CA"
   email            : # "abbabu0411@gmail.com"
   links:
@@ -121,9 +121,7 @@ author:
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
-    - label: "Vinyls"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/abhi_for_the_record/"
+
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:abbabu0411@gmail.com"
@@ -143,9 +141,7 @@ footer:
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: "https://twitter.com/abhishekbabu04"
-    - label: "Vinyls"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/abhi_for_the_record/"
+
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:abbabu0411@gmail.com"
