@@ -15,22 +15,26 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
+<link rel="stylesheet alternate" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
 {% if site.minimal_mistakes_skin_alt %}
-<link rel="stylesheet alternate" href="{{ '/assets/css/main2.css' | relative_url }}" id="theme_source_2">
+<link rel="stylesheet" href="{{ '/assets/css/main2.css' | relative_url }}" id="theme_source_2">
 <script>
   function setInitTheme() {
     let theme = sessionStorage.getItem('theme');
-    if (theme === "dark") {
+    let node1 = document.getElementById('theme_source');
+    let node2 = document.getElementById('theme_source_2');
+    let icon = document.getElementById('theme-icon');
+
+    if (theme === "light") {
+      node1.setAttribute('rel', 'stylesheet');
+      node2.setAttribute('rel', 'stylesheet alternate');
+      if (icon) icon.setAttribute('class', 'fas fa-fw fa-moon');
+    } else {
+      // Default to dark mode
       sessionStorage.setItem('theme', 'dark');
-      node1 = document.getElementById('theme_source');
-      node2 = document.getElementById('theme_source_2');
-      icon = document.getElementById('theme-icon');
       node2.setAttribute('rel', 'stylesheet');
       node1.setAttribute('rel', 'stylesheet alternate');
-      icon.setAttribute('class', 'fas fa-fw fa-sun');
-    } else {
-      sessionStorage.setItem('theme', 'light');
+      if (icon) icon.setAttribute('class', 'fas fa-fw fa-sun');
     }
   }
   window.onload = setInitTheme; 
