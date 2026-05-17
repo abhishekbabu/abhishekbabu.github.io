@@ -178,6 +178,31 @@ h1 {
   letter-spacing: -0.01em;
 }
 
+.entry-head h3 a {
+  color: var(--fg);
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.entry-head h3 a::after {
+  content: "\2197";
+  display: inline-block;
+  margin-left: 0.12em;
+  font-size: 0.68em;
+  font-weight: 500;
+  color: var(--muted);
+  transition: color .2s ease, transform .2s ease;
+}
+
+.entry-head h3 a:hover,
+.entry-head h3 a:focus-visible { color: var(--accent); outline: none; }
+
+.entry-head h3 a:hover::after,
+.entry-head h3 a:focus-visible::after {
+  color: var(--accent);
+  transform: translate(1px, -1px);
+}
+
 .entry-meta {
   font-family: var(--mono);
   font-size: 0.74rem;
