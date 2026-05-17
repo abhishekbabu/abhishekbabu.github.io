@@ -213,6 +213,47 @@ h1 {
 
 .entry p { color: var(--soft); }
 
+.degrees { list-style: none; margin-top: 0.55rem; }
+
+.degrees li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.4rem 1.2rem;
+  flex-wrap: wrap;
+}
+
+.degrees li + li { margin-top: 0.3rem; }
+
+.degree { font-size: 0.98rem; color: var(--soft); }
+
+/* --- artifacts: supplementary links per entry -------------- */
+
+.artifacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.15rem;
+  margin-top: 0.9rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
+.artifacts a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.artifacts a::before {
+  content: "\2197";
+  margin-right: 0.3em;
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.artifacts a:hover,
+.artifacts a:focus-visible { color: var(--fg); outline: none; }
+
 /* --- footer ------------------------------------------------ */
 
 footer {
