@@ -24,6 +24,6 @@ file tells Pages to serve the files as-is rather than running a Jekyll build.
 
 The code in this repository is released under the [MIT License](LICENSE).
 
-Personal content — the site copy, my photo (`assets/images/me.jpg`), and
-résumé (`assets/docs/resume.pdf`) — is **not** covered by the MIT license and
-remains © Abhishek Babu, all rights reserved.
+Personal content — the site copy and my photo (`assets/images/me.jpg`) — is
+**not** covered by the MIT license and remains © Abhishek Babu, all rights
+reserved.
