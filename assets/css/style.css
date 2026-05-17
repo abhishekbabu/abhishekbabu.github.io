@@ -95,42 +95,30 @@ h1 {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1.4rem;
+  align-items: center;
+  gap: 1.15rem;
   margin-top: 1.8rem;
-  font-family: var(--mono);
-  font-size: 0.86rem;
 }
 
 .links a {
-  position: relative;
+  display: inline-flex;
   color: var(--muted);
-  text-decoration: none;
   transition: color .2s ease;
 }
 
-.links a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 1px;
-  background: var(--accent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform .25s ease;
+.links a svg {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
-.links a:hover,
-.links a:focus-visible { color: var(--fg); outline: none; }
-.links a:hover::after,
-.links a:focus-visible::after { transform: scaleX(1); }
+.links a:hover { color: var(--fg); }
 
-.links a.ext::before {
-  content: "\2197";          /* ↗ */
-  margin-right: 0.25em;
-  font-size: 0.85em;
-  color: var(--muted);
+.links a:focus-visible {
+  color: var(--fg);
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 3px;
 }
 
 /* --- sections ---------------------------------------------- */
