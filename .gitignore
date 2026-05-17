@@ -1,9 +1,2 @@
-# Editors
-*~
-*.sw[p_]
-*.sublime-project
-*.sublime-workspace
-.vscode/
-
 # macOS
 .DS_Store
