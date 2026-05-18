@@ -70,6 +70,13 @@ h1 {
   line-height: 1.04;
 }
 
+.aka {
+  margin-top: 0.7rem;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--soft);
+}
+
 .role {
   display: flex;
   align-items: center;
