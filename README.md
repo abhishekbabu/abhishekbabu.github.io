@@ -1,6 +1,6 @@
 # abhishekbabu.github.io
 
-My personal website — [abhishekbabu.github.io](https://abhishekbabu.github.io).
+My personal website — [abhishekbabu.dev](https://abhishekbabu.dev).
 
 A minimal, single-page site built with vanilla HTML, CSS, and JavaScript.
 No framework, no build step.
