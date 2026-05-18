@@ -208,6 +208,22 @@ h1 {
 
 .entry p { color: var(--soft); }
 
+.entry p a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .2s ease, text-decoration-color .2s ease;
+}
+
+.entry p a:hover,
+.entry p a:focus-visible {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+  outline: none;
+}
+
 .degrees { list-style: none; margin-top: 0.55rem; }
 
 .degrees li {
