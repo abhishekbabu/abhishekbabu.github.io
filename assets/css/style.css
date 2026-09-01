@@ -265,6 +265,49 @@ h1 {
 .artifacts a:hover,
 .artifacts a:focus-visible { color: var(--fg); outline: none; }
 
+/* --- contribution chart ------------------------------------ */
+
+.chart {
+  margin-top: 0.95rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chart::-webkit-scrollbar { display: none; }
+
+/* Fits a full year on desktop; scrolls rather than shrink below ~480px. */
+.chart svg {
+  display: block;
+  width: 100%;
+  min-width: 480px;
+  height: auto;
+}
+
+/* Levels are the accent at increasing strength, so the grid follows the theme. */
+#code rect {
+  fill: var(--accent);
+  transition: fill .35s ease;
+}
+
+#code rect[data-level="0"] { fill: var(--line); }
+#code rect[data-level="1"] { fill-opacity: 0.22; }
+#code rect[data-level="2"] { fill-opacity: 0.45; }
+#code rect[data-level="3"] { fill-opacity: 0.7; }
+
+.chart-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+.chart-legend svg { display: block; flex: none; }
+
 /* --- footer ------------------------------------------------ */
 
 footer {
